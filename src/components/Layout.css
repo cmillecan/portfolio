@@ -3,14 +3,15 @@
 }
 
 .divider {
-    width: 100px;
+    width: 50px;
     height: 4px;
-    background: #fffcf0;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    background: linear-gradient(to right, #7f7bff 0%, #4bd6ff 100%);
+    margin-top: 1px;
+    margin-bottom: 20px;
 }
 
 .navbar {
+    background: #f6f4f0;
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -42,95 +43,97 @@
     height: 750px;
 }
 
-.projects-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-}
-
-.projects-display {
+.about {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: #fff;
-    border-left: 6px solid #b4dfe5;
-    height: 250px;
-    margin-bottom: 20px;
-}
-
-.project-item-left {
-    display: flex;
-    padding: 20px;
-}
-
-.project-description-right {
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-    padding: 20px;
-    width: 300px;
-    height: 200px;
-    /*background: #fffcf0;*/
-    /*border-left: 6px solid #b4dfe5;*/
-}
-
-.project-boxes {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    width: 315px;
-    height: 200px;
-    background: #fff;
-    box-shadow: 0 0 5px 2px #d2d2d2;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
+    width: 850px;
 }
 
-.project-boxes-fitapp {
+.about-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 315px;
-    height: 200px;
-    background-image: url('https://i.imgur.com/olEEOLz.png');
-    background-position: center;
-    background-size: cover;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: lighter;
+    margin: 10px;
+    flex: 1;
 }
 
-.project-btn {
-    font-family: 'PT Sans', sans-serif;
-    /*color: #159fbc;*/
-    text-transform: uppercase;
-    line-height: 0;
-    font-size: 18px;
-    font-weight: lighter;
-    /*transition-duration: 0.4s;*/
-    border: 1px solid #159fbc;
-    background: #fff;
-    color: #159fbc;
-    padding-top: 15px;
-    padding-bottom: 13px;
-    width: 107px;
-    text-align: center;
+.about-right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 10px;
 }
 
-/*.project-btn:hover {*/
-/*    background-color: #fff;*/
-/*    border: 1px solid #60a79c;*/
-/*    color: #60a79c;*/
-/*    cursor: pointer;*/
-/*}*/
+.about-pic {
+    box-shadow: 0 0 5px 2px #d6d6d6;
+}
 
-.about-content {
+.projects {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 900px;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-display {
+    margin: 30px;
+}
+
+.complete-project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 2px #d6d6d6;
+    justify-content: center;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    padding: 20px;
+    background: #dddbff;
+    margin-right: 0;
+}
+
+.project-right {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    padding: 20px;
+    background: #fff;
+}
+
+.project-name {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-content {
@@ -151,4 +154,11 @@
     align-items: center;
     justify-content: center;
     height: 30px;
+    padding: 10px;
+    background: #474747;
+    width: 100%;
+}
+
+.footer p {
+    color: #fff;
 }
