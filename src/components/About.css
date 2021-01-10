@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    padding-left: 10px;
+}
+
+.about-pic {
+    box-shadow: 0 0 5px 2px #d6d6d6;
+}

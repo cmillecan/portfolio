@@ -1,5 +1,6 @@
 .portfolio-container {
     display: flex;
+    flex-direction: column;
 }
 
 .divider {
@@ -14,18 +15,21 @@
     background: #fff;
     font-size: 18px;
     display: flex;
-    flex-direction: column;
     box-shadow: 0 0 5px 2px #d6d6d6;
-    /*border-right: 1px solid #b0a79b;*/
     flex: 1;
     align-items: center;
-    justify-content: center;
-    height: 750px;
+    justify-content: space-between;
     overflow: hidden;
     position: sticky;
     top: 0;
     z-index: 100;
+    min-height: 75px;
+    max-height: 75px;
     font-family: 'Inter', sans-serif;
+}
+
+.nav-links > .active {
+    color: #7f7bff;
 }
 
 .main-content {
@@ -34,106 +38,6 @@
     flex: 6;
     align-items: center;
     justify-content: center;
-}
-
-.welcome {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 750px;
-}
-
-.about {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 850px;
-}
-
-.about-left {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    flex: 1;
-}
-
-.about-right {
-    display: flex;
-    flex-direction: column;
-    flex: 3;
-    padding-left: 10px;
-}
-
-.about-pic {
-    box-shadow: 0 0 5px 2px #d6d6d6;
-}
-
-.projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-}
-
-.projects-content {
-    display: flex;
-    flex-direction: row;
-}
-
-.projects-display {
-    margin: 30px;
-}
-
-.complete-project {
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 0 5px 2px #d6d6d6;
-    justify-content: center;
-}
-
-.project-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.project-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
-    padding: 20px;
-    background: #d9f2fd;
-    margin-right: 0;
-}
-
-.project-bottom {
-    margin-left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 350px;
-    padding: 20px;
-    background: #fff;
-}
-
-.project-name {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-h3 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 .contact-content {

@@ -1,0 +1,52 @@
+.projects-display {
+    margin: 30px;
+}
+
+.complete-project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 5px 2px #d6d6d6;
+    justify-content: center;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 20px;
+    background: #d9f2fd;
+    margin-right: 0;
+}
+
+.project-bottom {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    padding: 20px;
+    background: #fff;
+}
+
+.project-name {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-h3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
