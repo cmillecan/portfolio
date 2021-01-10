@@ -7,18 +7,18 @@ body {
 nav a {
     color: #50c9ff;
     text-decoration: none;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-weight: bold;
-    padding: 10px;
+    padding: 30px;
 }
 
 nav a:hover {
     background: #f8f8f8;
-    border-radius: 5px;
-    padding: 10px;
-    color: #7f7bff;
+    color: #00deb6;
+    padding: 30px;
+    cursor: pointer;
 }
 
 a {
@@ -31,8 +31,7 @@ a {
 }
 
 a:hover {
-    color: #7f7bff;
-    /*border-bottom: 3px solid #00badd;*/
+    color: #00deb6;
 }
 
 .about p {
@@ -114,3 +113,4 @@ h5 {
     padding: 7px;
     /*background: linear-gradient(to bottom, #7f7bff 5%, #80e2ff 100%);*/
 }
+

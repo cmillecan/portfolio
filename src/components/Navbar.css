@@ -1,0 +1,20 @@
+.navbar {
+    background: #fff;
+    font-size: 18px;
+    display: flex;
+    box-shadow: 0 0 5px 2px #d6d6d6;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    min-height: 75px;
+    max-height: 75px;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-links > .active {
+    color: #3c604a;
+}

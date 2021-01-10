@@ -32,19 +32,14 @@ const Projects = () => {
           title="Simple Shell"
           type="linux and unix system programming"
           date="May 2020"
-          description="FitApp is a web application for logging workouts. I created
-                  this project as my final project at Holberton School. sldkfj
-                  sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f. FitApp is a web
-                  application for logging workouts. I created this project as my
-                  final project at Holberton School. FitApp is a web application
-                  for logging workouts."
-          github="http://github.com/cmillecan/simple_shell"
-        />
-
-        <ProjectCard
-          title="Empty"
-          type="linux and unix system programming"
-          date="May 2020"
+          image={
+            <img
+              src="https://i.imgur.com/JGtEbvS.jpg"
+              width="350"
+              height="223"
+              alt="simple shell"
+            />
+          }
           description="FitApp is a web application for logging workouts. I created
                   this project as my final project at Holberton School. sldkfj
                   sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f. FitApp is a web
