@@ -5,7 +5,7 @@ body {
 }
 
 nav a {
-    color: #7f7bff;
+    color: #50c9ff;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -15,14 +15,14 @@ nav a {
 }
 
 nav a:hover {
-    background: #eeeeee;
+    background: #f8f8f8;
     border-radius: 5px;
     padding: 10px;
-    color: #00badd;
+    color: #7f7bff;
 }
 
 a {
-    color: #7f7bff;
+    color: #50c9ff;
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: #4bd6ff;
+    color: #7f7bff;
     /*border-bottom: 3px solid #00badd;*/
 }
 
@@ -65,9 +65,9 @@ h2 {
 
 h3 {
     font-family: 'PT Sans', sans-serif;
-    color: #7f7bff;
+    color: #50c9ff;
     text-transform: uppercase;
-    border: 1px solid #7f7bff;
+    border: 1px solid #50c9ff;
     /*background: #fff;*/
     border-radius: 4px;
     padding: 10px 9px 9px;
@@ -97,7 +97,7 @@ h5 {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-size: 25px;
-    color: #7f7bff;
+    color: #50c9ff;
     margin-top: 5px;
 }
 

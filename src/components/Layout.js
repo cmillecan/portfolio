@@ -35,17 +35,17 @@ function Portfolio() {
                         <div className='projects-display'>
                             <div className='complete-project'>
                                 <div className='project-row'>
-                                    <div className='project-left'>
+                                    <div className='project-top'>
                                         <div className='project-name'>
                                             <h2>FitApp</h2>
                                         </div>
                                         <div className='project-h3'>
                                             <h3>web application</h3>
                                         </div>
-                                        <a href='https://i.imgur.com/d24RntH.png'><img src="https://i.imgur.com/d24RntH.png" width="300" alt="fitapp" /></a>
                                     </div>
-                                    <div className='project-right'>
+                                    <div className='project-bottom'>
                                         <h4>November 2020</h4>
+                                        <img src="https://i.imgur.com/d24RntH.png" width="350" alt="fitapp" />
                                         <p>FitApp is a web application for logging workouts. I created this project as my final project at Holberton School. sldkfj sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f.
                                             FitApp is a web application for logging workouts. I created this project as my final project at Holberton School. FitApp is a web application for logging workouts.</p>
                                         <div className='project-3'>
@@ -59,7 +59,7 @@ function Portfolio() {
                         <div className='projects-display'>
                             <div className='complete-project'>
                                 <div className='project-row'>
-                                    <div className='project-left'>
+                                    <div className='project-top'>
                                         <div className='project-name'>
                                             <h2>Simple Shell</h2>
                                         </div>
@@ -67,7 +67,7 @@ function Portfolio() {
                                             <h3>linux and unix system programming</h3>
                                         </div>
                                     </div>
-                                    <div className='project-right'>
+                                    <div className='project-bottom'>
                                         <h4>May 2020</h4>
                                         <p>FitApp is a web application for logging workouts. I created this project as my final project at Holberton School. sldkfj sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f.
                                             FitApp is a web application for logorkouts.</p>
@@ -77,23 +77,23 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className='projects-display'>
-                            <div className='complete-project'>
-                                <div className='project-row'>
-                                    <div className='project-left'>
-                                        <div className='project-name'>
-                                            <h2>Printf</h2>
-                                        </div>
-                                        <div className='project-h3'>
-                                            <h3>low-level programming</h3>
-                                        </div>
-                                    </div>
-                                    <div className='project-right'>
-                                        <h4>March 2020</h4>
-                                        <p>ct as my final project at Holberton School. sldkfj sdlkfjd lskfj dkfjs skfjls dkjf skdj s f.
-                                            FitApp is a web application for logging workouts. I created this project as my final project at Holberton School. FitApp is a web application for logging workouts.</p>
-                                        <p>Github</p>
 
+                            <div className='projects-display'>
+                                <div className='complete-project'>
+                                    <div className='project-row'>
+                                        <div className='project-top'>
+                                            <div className='project-name'>
+                                                <h2>Printf</h2>
+                                            </div>
+                                            <div className='project-h3'>
+                                                <h3>low-level programming</h3>
+                                            </div>
+                                        </div>
+                                        <div className='project-bottom'>
+                                            <h4>March 2020</h4>
+                                            <p>ct as my final project at Holberton School. sldkfj sdlkfjd lskfj dkfjs skfjls dkjf skdj s f.
+                                                FitApp is a web application for logging workouts. I created this project as my final project at Holberton School. FitApp is a web application for logging workouts.</p>
+                                            <p>Github</p>
                                     </div>
                                 </div>
                             </div>

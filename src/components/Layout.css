@@ -5,17 +5,18 @@
 .divider {
     width: 50px;
     height: 4px;
-    background: linear-gradient(to right, #7f7bff 0%, #4bd6ff 100%);
+    background: linear-gradient(to right, #7f7bff 0%, #50c9ff 100%);
     margin-top: 1px;
     margin-bottom: 20px;
 }
 
 .navbar {
-    background: #f6f4f0;
+    background: #fff;
     font-size: 18px;
     display: flex;
     flex-direction: column;
-    border-right: 1px solid #b0a79b;
+    box-shadow: 0 0 5px 2px #d6d6d6;
+    /*border-right: 1px solid #b0a79b;*/
     flex: 1;
     align-items: center;
     justify-content: center;
@@ -79,7 +80,7 @@
 
 .projects-content {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .projects-display {
@@ -95,26 +96,26 @@
 
 .project-row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
-.project-left {
+.project-top {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 300px;
+    width: 350px;
     padding: 20px;
-    background: #dddbff;
+    background: #d9f2fd;
     margin-right: 0;
 }
 
-.project-right {
+.project-bottom {
     margin-left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 500px;
+    width: 350px;
     padding: 20px;
     background: #fff;
 }
@@ -122,7 +123,6 @@
 .project-name {
     display: flex;
     flex-direction: column;
-    width: 300px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -155,10 +155,5 @@
     justify-content: center;
     height: 30px;
     padding: 10px;
-    background: #474747;
     width: 100%;
-}
-
-.footer p {
-    color: #fff;
 }
