@@ -6,7 +6,7 @@
 .divider {
     width: 50px;
     height: 4px;
-    background: linear-gradient(to right, #7f7bff 0%, #50c9ff 100%);
+    background: linear-gradient(to right, #7f7bff 0%, var(--primary) 100%);
     margin-top: 1px;
     margin-bottom: 20px;
 }
@@ -19,10 +19,3 @@
     justify-content: center;
 }
 
-.contact-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 900px;
-}

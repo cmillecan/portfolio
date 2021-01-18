@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <p>copyright 2021</p>
+      <h4>© 2021 Constance Millecan</h4>
     </div>
   );
 };

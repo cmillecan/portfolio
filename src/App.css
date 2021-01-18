@@ -1,28 +1,25 @@
+:root {
+    --primary: #50c9ff;
+    --primarylight: #d9f2fd;
+    --white: #ffffff;
+    --secondary: #78199b;
+    --black: #474747;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-color: #f6f4f0;
     margin: 0;
     padding: 0;
 }
 
-nav a {
-    color: #50c9ff;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    text-transform: lowercase;
-    font-weight: bold;
-    padding: 30px;
-}
-
-nav a:hover {
-    background: #f8f8f8;
-    color: #00deb6;
-    padding: 30px;
-    cursor: pointer;
-}
-
 a {
-    color: #50c9ff;
+    color: var(--primary);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -31,27 +28,19 @@ a {
 }
 
 a:hover {
-    color: #00deb6;
-}
-
-.about p {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    color: #474747;
-    font-weight: bolder;
-    line-height: 30px;
+    color: var(--secondary);
 }
 
 p {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    color: #474747;
+    color: var(--black);
     font-weight: bolder;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #474747;
+    color: var(--black);
 }
 
 h2 {
@@ -59,16 +48,16 @@ h2 {
     font-weight: bolder;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
-    color: #474747;
+    color: var(--black);
 }
 
 h3 {
     font-family: 'PT Sans', sans-serif;
-    color: #50c9ff;
+    color: var(--primary);
     text-transform: uppercase;
-    border: 1px solid #50c9ff;
-    /*background: #fff;*/
-    border-radius: 4px;
+    border: 1px solid var(--primary);
+    /*background: var(--primary);*/
+    border-radius: 40px;
     padding: 10px 9px 9px;
     text-align: center;
     line-height: 0;
@@ -80,7 +69,7 @@ h3 {
 
 h4 {
     font-family: 'PT Sans', sans-serif;
-    color: #474747;
+    color: var(--black);
     text-transform: uppercase;
     text-align: center;
     line-height: 0;
@@ -96,21 +85,7 @@ h5 {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     font-size: 25px;
-    color: #50c9ff;
+    color: var(--primary);
     margin-top: 5px;
-}
-
-.logo {
-    width: 65px;
-    height: 60px;
-    text-align: center;
-    line-height: 60px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    font-weight: bolder;
-    color: #474747;
-    border-radius: 100%;
-    padding: 7px;
-    /*background: linear-gradient(to bottom, #7f7bff 5%, #80e2ff 100%);*/
 }
 

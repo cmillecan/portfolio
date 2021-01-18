@@ -7,7 +7,9 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">CM</div>
+      <a className="logo" href="/">
+        CM
+      </a>
       <div className="nav-links">
         <Link
           activeClass="active"
@@ -29,18 +31,20 @@ const Navbar = () => {
         >
           Projects
         </Link>
-        <Link
-          activeClass="active"
-          to="contact"
-          spy
-          smooth
-          offset={-70}
-          duration={500}
-        >
-          Contact
-        </Link>
+        <a>resume</a>
       </div>
-      <div className="social"></div>
+      <div className="social">
+        <a
+          href="http://linkedin.com/cmillecan"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+        <a href="http://github.com/cmillecan" target="_blank" rel="noreferrer">
+          <i className="fa fa-github-square" aria-hidden="true"></i>
+        </a>
+      </div>
     </nav>
   );
 };

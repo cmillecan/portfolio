@@ -15,7 +15,7 @@
     justify-content: center;
     max-width: 350px;
     padding: 20px;
-    background: #d9f2fd;
+    background: var(--primarylight);
     margin-right: 0;
 }
 

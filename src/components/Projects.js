@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects-content">
         <ProjectCard
           title="FitApp"
-          type="web application"
+          type="full stack web application"
           date="November 2020"
           image={
             <img
@@ -19,19 +19,15 @@ const Projects = () => {
               alt="fitapp"
             />
           }
-          description="FitApp is a web application for logging workouts. I created
-                  this project as my final project at Holberton School. sldkfj
-                  sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f. FitApp is a web
-                  application for logging workouts. I created this project as my
-                  final project at Holberton School. FitApp is a web application
-                  for logging workouts."
+          description="FitApp is a web application for logging workouts. This was my final project for Holberton School. I specifically chose to build the front and back-end of this app in JavaScript
+         to get familiar with the language and to learn some of its frameworks. FitApp was built with React, Express, MySQL, and was deployed using AWS and Docker."
           github="http://github.com/cmillecan/fitapp"
         />
 
         <ProjectCard
           title="Simple Shell"
           type="linux and unix system programming"
-          date="May 2020"
+          date="April 2020"
           image={
             <img
               src="https://i.imgur.com/JGtEbvS.jpg"
@@ -40,12 +36,7 @@ const Projects = () => {
               alt="simple shell"
             />
           }
-          description="FitApp is a web application for logging workouts. I created
-                  this project as my final project at Holberton School. sldkfj
-                  sdlkfjd lskfj sdkfjs skfjls dkjf skdj s f. FitApp is a web
-                  application for logging workouts. I created this project as my
-                  final project at Holberton School. FitApp is a web application
-                  for logging workouts."
+          description="Simple Shell reproduces the behavior of the Bash Shell, including a REPL-like mechanism to run programs in forked processes. This project was written in the C programming language."
           github="http://github.com/cmillecan/simple_shell"
         />
       </div>

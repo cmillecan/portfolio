@@ -15,6 +15,54 @@
     font-family: 'Inter', sans-serif;
 }
 
+nav a {
+    color: var(--primary);
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: lowercase;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.nav-links a:hover {
+    background: #f8f8f8;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
 .nav-links > .active {
-    color: #3c604a;
+    color: var(--secondary);
+}
+
+.social a {
+    background: #fff;
+    color: var(--black);
+    font-size: 30px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.social a:hover {
+    background: #fff;
+    color: var(--secondary);
+    font-size: 30px;
+    padding: 5px;
+}
+
+.logo {
+    width: 65px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: var(--black);
+    padding: 7px;
+    text-transform: uppercase;
+}
+
+.logo:hover {
+    color: var(--black) !important;
 }

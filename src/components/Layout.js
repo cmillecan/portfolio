@@ -3,7 +3,6 @@ import "./Layout.css";
 import Projects from "./Projects";
 import About from "./About";
 import Navbar from "./Navbar";
-import Contact from "./Contact";
 import Footer from "./Footer";
 
 function Portfolio() {
@@ -13,7 +12,6 @@ function Portfolio() {
       <div className="main-content">
         <About />
         <Projects />
-        <Contact />
         <Footer />
       </div>
     </div>

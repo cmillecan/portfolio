@@ -17,16 +17,16 @@ const About = (props) => {
         </div>
         <div className="about-right">
           <p>
-            Hi! I am a _____ and I am passionate about creativity. I have been
-            studying _____ for the past _____ years. I had my first experience
-            with web design over 15 years ago in high school when I had a web
-            site and would spend hours designing and making little adjustments
-            and I loved it. Although my professional background is in music, my
-            interest in software never went away. I always had the desire to
-            learn more and discover all the amazing things I can create. There
-            is something about both music and software that brings me into a
-            fascinating world. I am very excited to explore more in the field of
-            software engineering.
+            Hi! I am a software engineer and musician passionate about
+            creativity. Originally I had studied music in college, but recently
+            I pursued and finished an education in computer science. I had my
+            first experience with web design over 15 years ago when I was
+            building my own website as a hobby. I loved spending hours designing
+            and making improvements, and even ended up making a little money
+            from it. My interest in software never went away, as I've continued
+            to have the desire to learn more. Although my professional
+            background has been in music so far, I am currently very excited to
+            focus on my software career.
           </p>
         </div>
       </div>
