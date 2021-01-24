@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 export const SectionHeader = styled.h2`
-  margin: 20px auto;
+  margin: 50px auto 30px;
   line-height: 0;
   font-weight: bolder;
   font-family: "Source Sans Pro", sans-serif;
@@ -12,32 +12,21 @@ export const SectionHeader = styled.h2`
 
 export const SectionWrapper = styled.div`
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  max-width: 700px;
   width: 100%;
   margin: 0 40px;
-`;
-
-export const SectionLabel = styled.label`
-  font-size: 15px;
-  display: flex;
-  justify-content: flex-start;
-  font-family: "Inter", sans-serif;
-  color: var(--black);
-  font-weight: bolder;
 `;
 
 export const ContentLabel = styled.h4`
   font-family: "PT Sans", sans-serif;
   color: var(--black);
+  font-weight: ${(props) => (props.bold ? "bolder" : "lighter")};
   text-transform: uppercase;
-  text-align: center;
+  text-align: ${(props) => (props.left ? "flex-start" : "center")};
   line-height: 0;
-  font-size: 16px;
-  font-weight: lighter;
+  font-size: 15px;
   margin-top: 10px;
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 `;
 
 export const Paragraph = styled.p`
@@ -48,15 +37,19 @@ export const Paragraph = styled.p`
 `;
 
 const StyledUl = styled.ul`
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+`;
+
+const StyledLi = styled.li`
+  margin-bottom: 4px;
 `;
 
 export const List = ({ children }) => {
   return (
     <StyledUl>
       {children.map((child, i) => (
-        <li key={i}>{child}</li>
+        <StyledLi key={i}>{child}</StyledLi>
       ))}
     </StyledUl>
   );

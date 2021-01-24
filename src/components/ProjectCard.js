@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProjectCard.css";
 import Pill from "./Pill";
-import { Paragraph, SectionHeader } from "./common";
+import { ContentLabel, Paragraph, SectionHeader } from "./common";
 
 const ProjectCard = (props) => {
   const { title, type, date, image, description, github } = props;
@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
           </div>
         </div>
         <div className="project-bottom">
-          <h4>{date}</h4>
+          <ContentLabel>{date}</ContentLabel>
           {image}
           <Paragraph>{description}</Paragraph>
           <div className="project-h3">

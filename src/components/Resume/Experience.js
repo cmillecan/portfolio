@@ -13,15 +13,19 @@ const ExpHeader = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
+  flex-wrap: wrap;
+  flex-direction: row;
 
   h4 {
     font-weight: bold;
     color: var(--primary);
   }
+`;
 
-  @media (max-width: 500px) {
-    flex-direction: column;
-  }
+const ExpTitle = styled.div`
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 `;
 
 const ExpItem = (props) => {
@@ -29,14 +33,16 @@ const ExpItem = (props) => {
   return (
     <>
       <ExpHeader>
-        <ContentLabel>
-          {name} ({location}) - {role}
-        </ContentLabel>
+        <ExpTitle>
+          <ContentLabel>
+            {name} ({location}) - {role}
+          </ContentLabel>
+        </ExpTitle>
         <ContentLabel>{dates}</ContentLabel>
       </ExpHeader>
       <List>
-        {descriptions.map((d) => (
-          <Paragraph>{d}</Paragraph>
+        {descriptions.map((d, i) => (
+          <Paragraph key={i}>{d}</Paragraph>
         ))}
       </List>
     </>

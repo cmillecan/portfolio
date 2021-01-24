@@ -1,9 +1,24 @@
 import React from "react";
 import Section from "./Section";
 import "./About.css";
-import Resume from "./Resume";
+import styled from "styled-components";
 
-const About = (props) => {
+const ResumeButton = styled.button`
+  font-size: 13px;
+  color: var(--white);
+  background: var(--secondary);
+  border: 0;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 30px;
+
+  &:hover {
+    opacity: 60%;
+    cursor: pointer;
+  }
+`;
+
+const About = () => {
   return (
     <Section id="about">
       <h1>Constance Millecan</h1>
@@ -31,6 +46,7 @@ const About = (props) => {
           </p>
         </div>
       </div>
+      <ResumeButton onClick={() => {}}>Download Resume</ResumeButton>
     </Section>
   );
 };

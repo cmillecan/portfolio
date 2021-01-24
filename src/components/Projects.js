@@ -19,7 +19,7 @@ const Projects = () => {
               alt="portfolio"
             />
           }
-          description="My portfolio site was a fun opportunity I used to work on my front-end skills. I built it from scratch using React and CSS. I wanted to create a clean and responsive website."
+          description="My portfolio site was a fun opportunity to work on my front-end skills. I built it from scratch using React and CSS. I wanted to create a clean and responsive website."
           github="http://github.com/cmillecan/portfolio"
         />
         <ProjectCard

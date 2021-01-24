@@ -1,10 +1,11 @@
 import React from "react";
 import "./Footer.css";
+import { ContentLabel } from "./common";
 
 const Footer = () => {
   return (
     <div className="footer">
-      <h4>© 2021 Constance Millecan</h4>
+      <ContentLabel>© 2021 Constance Millecan</ContentLabel>
     </div>
   );
 };

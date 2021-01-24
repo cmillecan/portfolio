@@ -6,6 +6,16 @@
     --black: #474747;
 }
 
+/* reset some of the basic styles */
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+}
+/* end reset */
+
 html {
     width: 100%;
     height: 100%;

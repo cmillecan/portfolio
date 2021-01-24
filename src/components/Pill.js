@@ -7,9 +7,10 @@ const Pill = styled.div`
   padding: 10px 9px 9px;
   text-align: center;
   line-height: 0;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: lighter;
   margin-top: 10px;
+  margin-right: 4px;
   margin-bottom: 7px;
   color: ${(props) => {
     if (props.type === "primary") return "var(--primary)";

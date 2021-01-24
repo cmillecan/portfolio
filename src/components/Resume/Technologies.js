@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import Pill from "../Pill";
-import { SectionHeader, SectionLabel, SectionWrapper } from "../common";
+import { ContentLabel, SectionHeader, SectionWrapper } from "../common";
 import React from "react";
 
 const TechWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  margin-bottom: 8px;
 `;
 
 const Technologies = () => {
@@ -43,9 +44,13 @@ const Technologies = () => {
   return (
     <SectionWrapper>
       <SectionHeader>Technologies</SectionHeader>
-      <SectionLabel>Proficient with:</SectionLabel>
+      <ContentLabel bold left>
+        Proficient with
+      </ContentLabel>
       {proficiencies}
-      <SectionLabel>Familiar with:</SectionLabel>
+      <ContentLabel bold left>
+        Familiar with
+      </ContentLabel>
       {familiarities}
     </SectionWrapper>
   );

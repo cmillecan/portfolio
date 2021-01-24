@@ -3,19 +3,12 @@
     flex-direction: column;
 }
 
-.divider {
-    width: 50px;
-    height: 4px;
-    background: linear-gradient(to right, #7f7bff 0%, var(--primary) 100%);
-    margin-top: 1px;
-    margin-bottom: 20px;
-}
-
 .main-content {
     display: flex;
     flex-direction: column;
     flex: 6;
     align-items: center;
     justify-content: center;
+    margin: 0 40px
 }
 

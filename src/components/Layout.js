@@ -13,7 +13,6 @@ function Portfolio() {
       <div className="main-content">
         <About />
         <Projects />
-        <Resume />
         <Footer />
       </div>
     </div>
