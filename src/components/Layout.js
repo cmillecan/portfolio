@@ -4,6 +4,7 @@ import Projects from "./Projects";
 import About from "./About";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Resume from "./Resume";
 
 function Portfolio() {
   return (
@@ -12,6 +13,7 @@ function Portfolio() {
       <div className="main-content">
         <About />
         <Projects />
+        <Resume />
         <Footer />
       </div>
     </div>

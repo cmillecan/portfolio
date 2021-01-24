@@ -1,6 +1,7 @@
 import React from "react";
 import Section from "./Section";
 import "./About.css";
+import Resume from "./Resume";
 
 const About = (props) => {
   return (

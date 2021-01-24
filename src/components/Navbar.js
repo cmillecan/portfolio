@@ -31,7 +31,16 @@ const Navbar = () => {
         >
           Projects
         </Link>
-        <a>resume</a>
+        <Link
+            activeClass="active"
+            to="resume"
+            spy
+            smooth
+            offset={linkOffset}
+            duration={500}
+        >
+           Resume
+        </Link>
       </div>
       <div className="social">
         <a

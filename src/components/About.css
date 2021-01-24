@@ -8,7 +8,7 @@
 
 .about p {
     font-family: 'Inter', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     color: var(--black);
     font-weight: bolder;
     line-height: 30px;
@@ -16,6 +16,7 @@
 
 .about-left {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin: 10px;
     flex: 1;
@@ -23,21 +24,39 @@
 
 .about-right {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex: 3;
     padding-left: 10px;
 }
 
 .about-pic {
-    box-shadow: 0 0 5px 2px #d6d6d6;
+    width: 220px;
+    /*box-shadow: 0 0 5px 2px #d6d6d6;*/
 }
 
-@media (max-width: 650px) {
+@media (max-width: 750px) {
     .about {
         flex-direction: column;
     }
     .about-right {
         min-width: 300px;
         max-width: 400px;
+    }
+    .about p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-right {
+        min-width: 200px;
+        max-width: 300px;
+    }
+    .about p {
+        font-size: 16px;
     }
 }

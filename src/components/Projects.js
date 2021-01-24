@@ -9,13 +9,27 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-content">
         <ProjectCard
+          title="Portfolio Site"
+          type="front-end web application"
+          date="January 2021"
+          image={
+            <img
+              className="project-img"
+              src="https://i.imgur.com/rSwpCDY.png"
+              alt="portfolio"
+            />
+          }
+          description="My portfolio site was a fun opportunity I used to work on my front-end skills. I built it from scratch using React and CSS. I wanted to create a clean and responsive website."
+          github="http://github.com/cmillecan/portfolio"
+        />
+        <ProjectCard
           title="FitApp"
           type="full stack web application"
           date="November 2020"
           image={
             <img
+              className="project-img"
               src="https://i.imgur.com/d24RntH.png"
-              width="350"
               alt="fitapp"
             />
           }
@@ -30,9 +44,8 @@ const Projects = () => {
           date="April 2020"
           image={
             <img
+              className="project-img"
               src="https://i.imgur.com/JGtEbvS.jpg"
-              width="350"
-              height="223"
               alt="simple shell"
             />
           }

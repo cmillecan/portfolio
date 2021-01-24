@@ -1,12 +1,7 @@
 .projects-content {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-@media (max-width: 650px) {
-    .projects-content {
-        flex-direction: column;
-    }
 }
