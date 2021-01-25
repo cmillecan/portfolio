@@ -19,7 +19,7 @@ const Projects = () => {
               alt="portfolio"
             />
           }
-          description="My portfolio site was a fun opportunity to work on my front-end skills. I built it from scratch using React and CSS. I wanted to create a clean and responsive website."
+          description="My portfolio site was a fun opportunity to work on my front-end skills. I built it using React and CSS. I wanted to create a clean and responsive website."
           github="http://github.com/cmillecan/portfolio"
         />
         <ProjectCard
@@ -33,7 +33,7 @@ const Projects = () => {
               alt="fitapp"
             />
           }
-          description="FitApp is a web application for logging workouts. This was my final project for Holberton School. I specifically chose to build the front and back-end of this app in JavaScript
+          description="FitApp is a web application for logging workouts. I specifically chose to build the front and back-end of this app in JavaScript
          to get familiar with the language and to learn some of its frameworks. FitApp was built with React, Express, MySQL, and was deployed using AWS and Docker."
           github="http://github.com/cmillecan/fitapp"
         />

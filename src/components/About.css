@@ -1,5 +1,6 @@
 .about {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
@@ -53,6 +54,7 @@
 @media (max-width: 500px) {
     .about {
         flex-direction: column;
+        justify-content: center;
     }
     .about-right {
         min-width: 200px;

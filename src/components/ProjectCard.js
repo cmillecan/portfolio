@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
         </div>
         <div className="project-bottom">
           <ContentLabel>{date}</ContentLabel>
-          {image}
+          <div className="project-img">{image}</div>
           <Paragraph>{description}</Paragraph>
           <div className="project-h3">
             <a href={github}>Github</a>

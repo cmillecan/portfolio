@@ -9,8 +9,6 @@ const Pill = styled.div`
   line-height: 0;
   font-size: 14px;
   font-weight: lighter;
-  margin-top: 10px;
-  margin-right: 4px;
   margin-bottom: 7px;
   color: ${(props) => {
     if (props.type === "primary") return "var(--primary)";

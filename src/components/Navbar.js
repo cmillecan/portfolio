@@ -26,20 +26,10 @@ const Navbar = () => {
           to="projects"
           spy
           smooth
-          offset={linkOffset}
+          offset={-100}
           duration={500}
         >
           Projects
-        </Link>
-        <Link
-            activeClass="active"
-            to="resume"
-            spy
-            smooth
-            offset={linkOffset}
-            duration={500}
-        >
-           Resume
         </Link>
       </div>
       <div className="social">
