@@ -52,7 +52,7 @@
 .project-img {
     display: flex;
     justify-content: center;
-    max-width: 300px;
+    max-width: 100%;
 }
 
 @media (max-width: 400px) {
@@ -64,6 +64,6 @@
         max-height: 480px;
     }
     .project-img {
-        max-width: 280px;
+        max-width: 100%;
     }
 }
