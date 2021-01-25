@@ -16,16 +16,21 @@
     flex-direction: column;
     justify-content: center;
     max-width: 340px;
+    min-width: 320px;
     padding-bottom: 20px;
     background: var(--primarylight);
 }
+
+/*@media (max-width: 400px) {*/
+/*    */
+/*}*/
 
 .project-bottom {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     max-width: 340px;
-    min-width: 340px;
+    min-width: 320px;
     min-height: 450px;
     max-height: 450px;
     padding: 20px;
@@ -51,6 +56,7 @@
 .project-img {
     display: flex;
     justify-content: center;
-    width: 300px;
+    max-width: 300px;
+    min-width: 280px;
 }
 
