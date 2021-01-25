@@ -61,6 +61,7 @@ nav a {
     color: var(--black);
     padding: 7px;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
 .logo:hover {
