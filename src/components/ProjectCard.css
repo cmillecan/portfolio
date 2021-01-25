@@ -54,16 +54,3 @@
     justify-content: center;
     max-width: 100%;
 }
-
-@media (max-width: 400px) {
-    .project-top {
-        max-width: 320px;
-    }
-    .project-bottom {
-        max-width: 320px;
-        max-height: 480px;
-    }
-    .project-img {
-        max-width: 100%;
-    }
-}
