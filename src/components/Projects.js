@@ -19,7 +19,7 @@ const Projects = () => {
               alt="portfolio"
             />
           }
-          description="I built my portfolio site using React and CSS. It was a fun opportunity to get even more familiar with React since using it for the first time with my previous project, FitApp. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
+          description="I built my portfolio site using React and CSS. It was a fun opportunity to get even more familiar with React. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
           github="http://github.com/cmillecan/portfolio"
         />
         <ProjectCard
