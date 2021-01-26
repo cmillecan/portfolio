@@ -4,9 +4,14 @@ import "./About.css";
 import styled from "styled-components";
 
 const ResumeButton = styled.button`
-  font-size: 13px;
+  font-size: 14px;
   color: var(--white);
-  background: var(--secondary);
+  background: linear-gradient(
+    90deg,
+    rgb(151, 63, 252) 0%,
+    rgb(110, 94, 254) 100%
+  );
+
   border: 0;
   border-radius: 2px;
   padding: 10px;
@@ -46,7 +51,9 @@ const About = () => {
           </p>
         </div>
       </div>
-      <ResumeButton onClick={() => {}}>Download Resume</ResumeButton>
+      <a href="../images/Resume.pdf" target="_blank">
+        <ResumeButton>Download Resume</ResumeButton>
+      </a>
     </Section>
   );
 };

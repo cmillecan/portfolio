@@ -4,7 +4,7 @@ import Pill from "./Pill";
 import { ContentLabel, Paragraph, SectionHeader } from "./common";
 
 const ProjectCard = (props) => {
-  const { title, type, date, image, description, github } = props;
+  const { title, type, date, image, description, github, demo } = props;
 
   return (
     <div className="projects-display">
@@ -20,9 +20,14 @@ const ProjectCard = (props) => {
         <div className="project-bottom">
           <ContentLabel>{date}</ContentLabel>
           <div className="project-img">{image}</div>
-          <Paragraph>{description}</Paragraph>
+          <Paragraph>
+            {description}
+            {demo}
+          </Paragraph>
           <div className="project-h3">
-            <a href={github}>Github</a>
+            <a href={github} target="_blank">
+              Github
+            </a>
           </div>
         </div>
       </div>

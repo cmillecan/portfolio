@@ -1,14 +1,15 @@
-import React from "react"
+import React from "react";
 import ReactPlayer from "react-player";
+import Section from "./Section";
 
 function Fitapp() {
-    return (
-        <div>
-            <ReactPlayer
-                url="https://youtu.be/LxdsR191p_c"
-            />
-        </div>
-    )
+  return (
+    <Section>
+      <div>
+        <ReactPlayer url="https://youtu.be/LxdsR191p_c" />
+      </div>
+    </Section>
+  );
 }
 
-export default Fitapp
+export default Fitapp;

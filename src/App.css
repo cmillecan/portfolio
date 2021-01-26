@@ -2,7 +2,7 @@
     --primary: #50c9ff;
     --primarylight: #d9f2fd;
     --white: #ffffff;
-    --secondary: #78199b;
+    --secondary: rgb(151, 63, 252);
     --black: #474747;
 }
 
@@ -33,7 +33,6 @@ a {
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
-    text-transform: uppercase;
     font-weight: bold;
 }
 

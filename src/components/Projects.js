@@ -15,11 +15,11 @@ const Projects = () => {
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/rSwpCDY.png"
+              src="https://i.imgur.com/lMjwc9j.png"
               alt="portfolio"
             />
           }
-          description="My portfolio site was a fun opportunity to work on my front-end skills. I built it using React and CSS. I wanted to create a clean and responsive website."
+          description="I built my portfolio site using React and CSS. It was a fun opportunity to get even more familiar with React since using it for the first time with my previous project, FitApp. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more features over time."
           github="http://github.com/cmillecan/portfolio"
         />
         <ProjectCard
@@ -34,7 +34,12 @@ const Projects = () => {
             />
           }
           description="FitApp is a web application for logging workouts. I specifically chose to build the front and back-end of this app in JavaScript
-         to get familiar with the language and to learn some of its frameworks. FitApp was built with React, Express, MySQL, and was deployed using AWS and Docker."
+         to get familiar with the language and to learn some of its frameworks. FitApp was built with React, Express, MySQL, and was deployed using AWS and Docker. "
+          demo={
+            <a href="https://youtu.be/LxdsR191p_c" target="_blank">
+              Watch Demo
+            </a>
+          }
           github="http://github.com/cmillecan/fitapp"
         />
 
