@@ -34,14 +34,14 @@ const Navbar = () => {
       </div>
       <div className="social">
         <a
-          href="http://linkedin.com/cmillecan"
+          href="https://www.linkedin.com/in/constance-m-8672151a1/"
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+          <i className="fa fa-linkedin-square" aria-hidden="true" />
         </a>
         <a href="http://github.com/cmillecan" target="_blank" rel="noreferrer">
-          <i className="fa fa-github-square" aria-hidden="true"></i>
+          <i className="fa fa-github-square" aria-hidden="true" />
         </a>
       </div>
     </nav>
