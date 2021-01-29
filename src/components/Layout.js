@@ -4,7 +4,6 @@ import Projects from "./Projects";
 import About from "./About";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Fitapp from "./Fitapp";
 
 function Portfolio() {
   return (
