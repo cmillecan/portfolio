@@ -2,7 +2,6 @@ import React from "react";
 import Section from "./Section";
 import "./About.css";
 import styled from "styled-components";
-import resume from "../images/Resume.pdf";
 
 const ResumeButton = styled.button`
   font-size: 14px;
@@ -52,7 +51,11 @@ const About = () => {
           </p>
         </div>
       </div>
-      <a href={resume} download>
+      <a
+        href="https://drive.google.com/file/d/1RaDKBMccKxTWRQHP9OKRgTHAp0CgtBVl/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >
         <ResumeButton>Download Resume</ResumeButton>
       </a>
     </Section>

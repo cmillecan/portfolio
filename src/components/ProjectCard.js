@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
             {demo}
           </Paragraph>
           <div className="project-h3">
-            <a href={github} target="_blank">
+            <a href={github} target="_blank" rel="noreferrer">
               Github
             </a>
           </div>

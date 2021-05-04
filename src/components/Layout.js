@@ -5,7 +5,7 @@ import About from "./About";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-function Portfolio() {
+const Portfolio = () => {
   return (
     <div className="portfolio-container">
       <Navbar />
@@ -16,6 +16,6 @@ function Portfolio() {
       </div>
     </div>
   );
-}
+};
 
 export default Portfolio;
