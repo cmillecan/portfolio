@@ -15,7 +15,7 @@ const Projects = () => {
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/JAF1RkP.png"
+              src="https://i.imgur.com/FfwZi9s.png"
               alt="memory game"
             />
           }
@@ -32,7 +32,7 @@ Technologies include MongoDB, Express.js, React. "
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/P42srCq.png"
+              src="https://i.imgur.com/GIrajof.png"
               alt="memory game"
             />
           }
@@ -55,7 +55,7 @@ Technologies include MongoDB, Express.js, React. "
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/lMjwc9j.png"
+              src="https://i.imgur.com/uz67VLv.png"
               alt="portfolio"
             />
           }
@@ -69,7 +69,7 @@ Technologies include MongoDB, Express.js, React. "
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/d24RntH.png"
+              src="https://i.imgur.com/L7ukSpb.png"
               alt="fitapp"
             />
           }

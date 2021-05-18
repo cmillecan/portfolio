@@ -1,8 +1,8 @@
 :root {
     --primary: #50c9ff;
-    --primarylight: #d9f2fd;
+    --primarylight: #B9F2F3;
     --white: #ffffff;
-    --secondary: rgb(151, 63, 252);
+    --secondary: #6E5EFE;
     --black: #474747;
 }
 
@@ -31,9 +31,10 @@ body {
 a {
     color: var(--primary);
     text-decoration: none;
+    text-transform: lowercase;
     font-family: 'Inter', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 a:hover {
