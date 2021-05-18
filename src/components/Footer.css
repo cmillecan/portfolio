@@ -1,8 +1,15 @@
-.footer {
+.footer-container {
+    background-color: #353535;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 30px;
-    padding: 10px;
+    overflow: hidden;
+    position: sticky;
     width: 100%;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.footer-content {
+    padding: 20px;
 }

@@ -33,7 +33,7 @@ export const ContentLabel = styled.h4`
 
 export const Paragraph = styled.p`
   font-family: "Inter", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 18px;
   color: var(--black);
   font-weight: bolder;

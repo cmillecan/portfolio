@@ -4,8 +4,10 @@ import { ContentLabel } from "./common";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <ContentLabel>© 2021 Constance Millecan</ContentLabel>
+    <div className="footer-container">
+      <div className="footer-content">
+        <ContentLabel>© 2021 Constance Millecan</ContentLabel>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 :root {
-    --primary: #50c9ff;
+    --primary: #59cefd;
     --primarylight: #B9F2F3;
     --white: #ffffff;
     --secondary: #6E5EFE;
@@ -33,7 +33,6 @@ a {
     text-decoration: none;
     text-transform: lowercase;
     font-family: 'Inter', sans-serif;
-    font-size: 12px;
     font-weight: normal;
 }
 

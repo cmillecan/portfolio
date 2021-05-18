@@ -32,7 +32,7 @@ Technologies include MongoDB, Express.js, React. "
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/GIrajof.png"
+              src="https://i.imgur.com/gG2br1O.png"
               alt="memory game"
             />
           }
