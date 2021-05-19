@@ -1,5 +1,5 @@
 .projects-display {
-    margin-top: 20px
+    margin-top: 0;
 }
 
 .complete-project {
@@ -17,6 +17,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
     max-width: 300px;
     min-width: 300px;
     max-height: 500px;
@@ -24,16 +26,15 @@
 }
 
 .project-card a {
-    color: var(--primary);
-    border: 1px solid var(--primarylight);
-    padding: 3px;
-    border-radius: 4px;
+    color: darkslateblue;
+    border-bottom: 2px solid var(--primarylight);
+    padding: 1px;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .project-card a:hover {
-    color: var(--secondary);
-    border: 1px solid var(--primary);
+    color: var(--primary);
 }
 
 /*.project-right {*/
