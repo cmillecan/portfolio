@@ -6,4 +6,3 @@ This is my portfolio website. It's still a work in progress so please check back
 ### Technologies 
 
 `React`
-`CSS`

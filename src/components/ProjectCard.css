@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     margin-top: -30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     max-width: 300px;
     min-width: 300px;
     max-height: 520px;
@@ -57,7 +57,7 @@
     justify-content: space-between;
     text-align: left;
     margin-top: 10px;
-    margin-right: 30px
+    margin-right: 30px;
 }
 
 .project-img img {
@@ -72,7 +72,7 @@
     /*background: rgb(140,220,255);*/
     /*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*/
     background: rgb(91,227,207);
-    background: linear-gradient(270deg, rgb(185, 242, 243) 21%, rgba(140,220,255,1) 51%, rgba(140,72,217,1) 96%);
+    background: linear-gradient(270deg, rgb(185, 242, 243) 21%, rgb(140, 220, 255) 51%, rgb(140, 72, 217) 96%);
     height: .3rem;
     width: 70%;
     margin-top: 10px;
