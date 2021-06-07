@@ -35,8 +35,7 @@ const Projects = () => {
           }
           description="This project primarily focuses on a back-end which stores information of a variety of Disney resources such as
 attractions and park information. It includes APIs which follow RESTful principles to expose end-points of each
-resource. It also has an accompanying front-end built with React to act as a client to the back-end.
-Technologies include MongoDB, Express.js, React. "
+resource. Technologies include MongoDB, Express.js, React. "
           github="http://github.com/cmillecan/disneyland-app"
         />
         <ProjectCard
