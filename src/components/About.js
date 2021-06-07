@@ -9,7 +9,7 @@ const ResumeButton = styled.button`
   background: linear-gradient(
     90deg,
     rgb(151, 63, 252) 0%,
-    rgb(110,94,254) 100%
+    rgb(110, 94, 254) 100%
   );
 
   border: 0;

@@ -9,6 +9,20 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-content">
         <ProjectCard
+          title="Music Game"
+          type="front-end web application"
+          date="April 2021"
+          image={
+            <img
+              className="project-img"
+              src="https://i.imgur.com/y2bVgIM.png?1"
+              alt="music game"
+            />
+          }
+          description="An interactive and educational game for learning Triads on a musical keyboard. Technologies include React and Tone.js - a Web Audio framework.  "
+          github="http://github.com/cmillecan/music-app"
+        />
+        <ProjectCard
           title="Disneyland App"
           type="full-stack web application"
           date="April 2021"
@@ -16,7 +30,7 @@ const Projects = () => {
             <img
               className="project-img"
               src="https://i.imgur.com/FfwZi9s.png"
-              alt="memory game"
+              alt="disneyland app"
             />
           }
           description="This project primarily focuses on a back-end which stores information of a variety of Disney resources such as
