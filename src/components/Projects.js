@@ -32,7 +32,7 @@ const Projects = () => {
               alt="music game"
             />
           }
-          description="An interactive and educational game for learning Triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework.  "
+          description="An interactive and educational game for learning Triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework. (Demo coming soon)  "
           github={
             <a
               href="http://github.com/cmillecan/music-app"
