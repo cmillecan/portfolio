@@ -9,9 +9,22 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-content">
         <ProjectCard
+          title="Blog"
+          type="full-stack web application"
+          date="June 2021"
+          image={
+            <img
+              className="project-img"
+              src="https://i.imgur.com/STyTepY.png"
+              alt="music app"
+            />
+          }
+          description="Technologies- React, Express, MongoDB "
+        />
+        <ProjectCard
           title="Music Game"
           type="front-end web application"
-          date="April 2021"
+          date="May-June 2021"
           image={
             <img
               className="project-img"
@@ -19,8 +32,16 @@ const Projects = () => {
               alt="music game"
             />
           }
-          description="An interactive and educational game for learning Triads on a musical keyboard. Technologies include React and Tone.js - a Web Audio framework.  "
-          github="http://github.com/cmillecan/music-app"
+          description="An interactive and educational game for learning Triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework.  "
+          github={
+            <a
+              href="http://github.com/cmillecan/music-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
         <ProjectCard
           title="Disneyland App"
@@ -36,7 +57,15 @@ const Projects = () => {
           description="This project primarily focuses on a back-end which stores information of a variety of Disney resources such as
 attractions and park information. It includes APIs which follow RESTful principles to expose end-points of each
 resource. Technologies include MongoDB, Express.js, React. "
-          github="http://github.com/cmillecan/disneyland-app"
+          github={
+            <a
+              href="http://github.com/cmillecan/disneyland-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
         <ProjectCard
           title="Memory Game"
@@ -59,7 +88,15 @@ resource. Technologies include MongoDB, Express.js, React. "
               View Demo
             </a>
           }
-          github="http://github.com/cmillecan/memory-game"
+          github={
+            <a
+              href="http://github.com/cmillecan/memory-game"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
         <ProjectCard
           title="Portfolio Site"
@@ -73,7 +110,15 @@ resource. Technologies include MongoDB, Express.js, React. "
             />
           }
           description="I built my portfolio site with React and used it as a fun opportunity to get even more familiar with the JavaScript framework. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
-          github="http://github.com/cmillecan/portfolio"
+          github={
+            <a
+              href="http://github.com/cmillecan/portfolio"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
         <ProjectCard
           title="FitApp"
@@ -97,7 +142,15 @@ resource. Technologies include MongoDB, Express.js, React. "
               Watch Demo
             </a>
           }
-          github="http://github.com/cmillecan/fitapp"
+          github={
+            <a
+              href="http://github.com/cmillecan/fitapp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
 
         <ProjectCard
@@ -112,7 +165,15 @@ resource. Technologies include MongoDB, Express.js, React. "
             />
           }
           description="Simple Shell reproduces the behavior of the Bash Shell, including a REPL-like mechanism to run programs in forked processes. This project was written in the C programming language."
-          github="http://github.com/cmillecan/simple_shell"
+          github={
+            <a
+              href="http://github.com/cmillecan/simple_shell"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          }
         />
       </div>
     </Section>
