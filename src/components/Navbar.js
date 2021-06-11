@@ -38,10 +38,10 @@ const Navbar = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <i className="fab fa-linkedin"></i>
         </a>
         <a href="http://github.com/cmillecan" target="_blank" rel="noreferrer">
-          <i className="fa fa-github-square" aria-hidden="true" />
+          <i className="fab fa-github-square"></i>
         </a>
       </div>
     </nav>

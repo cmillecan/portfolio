@@ -25,9 +25,8 @@
 
 .project-card a {
     color: darkslateblue;
-    border-bottom: 2px solid var(--primarylight);
     padding: 1px;
-    font-size: 13px;
+    font-size: 20px;
     font-weight: bold;
 }
 

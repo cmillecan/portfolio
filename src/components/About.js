@@ -39,15 +39,15 @@ const About = () => {
         <div className="about-right">
           <p>
             Hi! I am a software engineer and musician passionate about
-            creativity. Originally I had studied music in college, but recently
-            I pursued and finished an education in computer science. I had my
-            first experience with web design over 15 years ago when I was
-            building my own website as a hobby. I loved spending hours designing
-            and making improvements, and even ended up making a little money
-            from it. My interest in software never went away, as I've continued
-            to have the desire to learn more. Although my professional
-            background has been in music so far, I am currently very excited to
-            focus on my software career.
+            creativity. I enjoy full-stack development and am especially
+            enthusiastic about front-end development. As a software engineer,
+            I'm always focused on how code feels, looks, and functions but am
+            also detail-oriented about visual elements. I have enjoyed working
+            on full-stack projects and learning how the front-end and back-end
+            communicate with each other. What excites me the most about software
+            engineering is that learning is never-ending and the small
+            challenges that I continuously overcome motivate my curious mind to
+            keep going.
           </p>
         </div>
       </div>

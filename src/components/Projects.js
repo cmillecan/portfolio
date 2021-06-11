@@ -16,10 +16,10 @@ const Projects = () => {
             <img
               className="project-img"
               src="https://i.imgur.com/STyTepY.png"
-              alt="music app"
+              alt="blog"
             />
           }
-          description="Technologies- React, Express, MongoDB "
+          description="A blog that renders custom styled Markdown built with React, Express, MongoDB. "
         />
         <ProjectCard
           title="Music Game"
@@ -39,7 +39,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
@@ -63,7 +63,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
@@ -85,7 +85,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              View Demo
+              <i className="fas fa-eye"></i>
             </a>
           }
           github={
@@ -94,7 +94,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
@@ -116,7 +116,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
@@ -139,7 +139,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Watch Demo
+              <i className="fas fa-eye"></i>
             </a>
           }
           github={
@@ -148,7 +148,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
@@ -171,7 +171,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              Github
+              <i className="fab fa-github"></i>
             </a>
           }
         />
