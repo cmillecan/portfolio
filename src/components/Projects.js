@@ -28,18 +28,27 @@ const Projects = () => {
           image={
             <img
               className="project-img"
-              src="https://i.imgur.com/y2bVgIM.png?1"
+              src="https://i.imgur.com/1qzwezp.png?1"
               alt="music game"
             />
           }
-          description="An interactive and educational game for learning Triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework. (Demo coming soon)  "
+          description="An interactive and educational game for learning Major, Minor, Augmented, and Diminished triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework. (Demo coming soon)  "
           github={
             <a
               href="http://github.com/cmillecan/music-app"
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
+            </a>
+          }
+          demo={
+            <a
+              href="https://cmillecan.github.io/music-app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fas fa-eye" />
             </a>
           }
         />
@@ -63,7 +72,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
             </a>
           }
         />
@@ -85,7 +94,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fas fa-eye"></i>
+              <i className="fas fa-eye" />
             </a>
           }
           github={
@@ -94,7 +103,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
             </a>
           }
         />
@@ -116,7 +125,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
             </a>
           }
         />
@@ -139,7 +148,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fas fa-eye"></i>
+              <i className="fas fa-eye" />
             </a>
           }
           github={
@@ -148,7 +157,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
             </a>
           }
         />
@@ -171,7 +180,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               target="_blank"
               rel="noreferrer"
             >
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github" />
             </a>
           }
         />
