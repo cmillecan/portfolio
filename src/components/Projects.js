@@ -22,7 +22,7 @@ const Projects = () => {
           description="A blog that renders custom styled Markdown built with React, Express, MongoDB. "
         />
         <ProjectCard
-          title="Music Game"
+          title="Music Theory App"
           type="front-end web application"
           date="May-June 2021"
           image={
@@ -87,7 +87,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               alt="memory game"
             />
           }
-          description="A memory game built with React. Features include different difficulty levels, a progress tracker, and CSS animations as players interact with the game. The implementation of this project focuses on state management, props, and component lifecycle methods in the context of the React framework. "
+          description="A memory game built with React. Features include different difficulty levels, a progress tracker, and CSS animations as players interact with the game. The implementation of this project focuses on state management, props, and component lifecycle methods in the context of the React library. "
           demo={
             <a
               href="https://cmillecan.github.io/memory-game/"
@@ -118,7 +118,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               alt="portfolio"
             />
           }
-          description="I built my portfolio site with React and used it as a fun opportunity to get even more familiar with the JavaScript framework. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
+          description="I built my portfolio site with React and used it as a fun opportunity to get even more familiar with the JavaScript library. I enjoy creating clean layouts and I also wanted my portfolio site to be responsive. It's still a work in progress as I plan to add more projects and features over time."
           github={
             <a
               href="http://github.com/cmillecan/portfolio"
