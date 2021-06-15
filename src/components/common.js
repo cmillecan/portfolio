@@ -27,8 +27,8 @@ export const ContentLabel = styled.h4`
   //text-align: ${(props) => (props.left ? "flex-start" : "center")};
   line-height: 0;
   font-size: 14px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 `;
 
 export const Paragraph = styled.p`

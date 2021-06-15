@@ -6,20 +6,18 @@ import styled from "styled-components";
 const ResumeButton = styled.button`
   font-size: 14px;
   color: var(--white);
-  background: linear-gradient(
-    90deg,
-    rgb(151, 63, 252) 0%,
-    rgb(110, 94, 254) 100%
-  );
-
-  border: 0;
-  border-radius: 2px;
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
   padding: 10px;
   margin-top: 30px;
 
   &:hover {
     opacity: 60%;
+    background: transparent;
+    color: #292626;
+    border: 1px solid var(--secondary);
     cursor: pointer;
+    transition: 0.2s;
   }
 `;
 

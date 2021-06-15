@@ -15,7 +15,6 @@ const ProjectCard = (props) => {
             <SectionHeader>{title}</SectionHeader>
           </div>
           <ContentLabel type="primary">{type}</ContentLabel>
-          <div className="gradient-div"></div>
           <div className="project-description">
             <Paragraph>{description}</Paragraph>
             <div className="project-links">

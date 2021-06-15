@@ -1,5 +1,5 @@
 .navbar {
-    background: #fff;
+    background: #d0efdd;
     font-size: 18px;
     display: flex;
     box-shadow: 0 0 5px 2px #d6d6d6;
@@ -16,7 +16,7 @@
 }
 
 nav a {
-    color: var(--primary);
+    color: var(--black);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -26,9 +26,9 @@ nav a {
 }
 
 .nav-links a:hover {
-    background: #f8f8f8;
-    color: var(--secondary);
+    color: var(--primary);
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .nav-links > .active {
@@ -36,7 +36,6 @@ nav a {
 }
 
 .social a {
-    background: #fff;
     color: var(--black);
     font-size: 30px;
     padding: 5px;
@@ -44,10 +43,10 @@ nav a {
 }
 
 .social a:hover {
-    background: #fff;
     color: var(--secondary);
     font-size: 30px;
     padding: 5px;
+    transition: 0.2s;
 }
 
 .logo {

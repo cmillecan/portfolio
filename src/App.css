@@ -1,8 +1,8 @@
 :root {
-    --primary: #59cefd;
+    --primary: #bad2c5;
     --primarylight: #B9F2F3;
     --white: #ffffff;
-    --secondary: #6E5EFE;
+    --secondary: #87abd2ff;
     --black: #474747;
 }
 
@@ -13,6 +13,7 @@
 
 p {
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 /* end reset */
 

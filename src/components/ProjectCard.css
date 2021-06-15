@@ -18,20 +18,21 @@
     flex-direction: column;
     justify-content: center;
     margin-bottom: 20px;
-    max-width: 300px;
-    min-width: 300px;
+    max-width: 330px;
+    min-width: 330px;
     min-height: 500px;
 }
 
 .project-card a {
-    color: darkslateblue;
+    color: var(--black);
     padding: 1px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .project-card a:hover {
-    color: var(--primary);
+    color: var(--secondary);
+    transition: 0.2s;
 }
 
 /*.project-right {*/
@@ -65,18 +66,26 @@
     margin-bottom: 1.5rem;
 }
 
-.gradient-div {
-    /*background: rgb(140,220,255);*/
-    /*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*/
-    background: rgb(91,227,207);
-    background: linear-gradient(270deg, rgb(185, 242, 243) 21%, rgb(140, 220, 255) 51%, rgb(140, 72, 217) 96%);
-    height: .3rem;
-    width: 70%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+/*.gradient-div {*/
+/*    !*background: rgb(140,220,255);*!*/
+/*    !*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*!*/
+/*    background: rgb(91,227,207);*/
+/*    background: linear-gradient(270deg, rgb(185, 242, 243) 21%, rgb(140, 220, 255) 51%, rgb(140, 72, 217) 96%);*/
+/*    height: .3rem;*/
+/*    width: 70%;*/
+/*    margin-top: 10px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
 
 .project-description {
     max-height: 100px;
     min-height: 100px;
+    margin-top: 5px;
+}
+
+.project-card p {
+    font-family: "Lato", sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 22px;
 }
