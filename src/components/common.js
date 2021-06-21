@@ -23,7 +23,6 @@ export const ContentLabel = styled.h4`
   font-family: "Inter", sans-serif;
   color: var(--secondary);
   font-weight: ${(props) => (props.bold ? "bolder" : "lighter")};
-  text-transform: uppercase;
   //text-align: ${(props) => (props.left ? "flex-start" : "center")};
   line-height: 0;
   font-size: 14px;

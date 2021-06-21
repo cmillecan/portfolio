@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects-content">
         <ProjectCard
           title="Blog"
-          type="full-stack web application"
+          type="MongoDB, Express.js, React"
           date="June 2021"
           image={
             <img
@@ -23,7 +23,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="Music Theory App"
-          type="front-end web application"
+          type="React, Tone.js"
           date="May-June 2021"
           image={
             <img
@@ -54,7 +54,7 @@ const Projects = () => {
         />
         <ProjectCard
           title="Disneyland App"
-          type="full-stack web application"
+          type="MongoDB, Express.js, React"
           date="April 2021"
           image={
             <img
@@ -78,7 +78,7 @@ resource. Technologies include MongoDB, Express.js, React. "
         />
         <ProjectCard
           title="Memory Game"
-          type="front-end web application"
+          type="React"
           date="April 2021"
           image={
             <img
@@ -109,7 +109,7 @@ resource. Technologies include MongoDB, Express.js, React. "
         />
         <ProjectCard
           title="Portfolio Site"
-          type="front-end web application"
+          type="React, Responsive Web Design"
           date="January 2021"
           image={
             <img
@@ -131,7 +131,7 @@ resource. Technologies include MongoDB, Express.js, React. "
         />
         <ProjectCard
           title="FitApp"
-          type="full-stack web application"
+          type="MySQL, Express.js, React"
           date="November 2020"
           image={
             <img
@@ -164,7 +164,7 @@ resource. Technologies include MongoDB, Express.js, React. "
 
         <ProjectCard
           title="Simple Shell"
-          type="linux and unix system programming"
+          type="C"
           date="April 2020"
           image={
             <img
