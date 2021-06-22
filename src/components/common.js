@@ -25,7 +25,7 @@ export const ContentLabel = styled.h4`
   font-weight: ${(props) => (props.bold ? "bolder" : "lighter")};
   //text-align: ${(props) => (props.left ? "flex-start" : "center")};
   line-height: 0;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 12px;
   margin-bottom: 12px;
 `;

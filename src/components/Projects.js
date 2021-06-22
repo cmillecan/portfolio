@@ -32,7 +32,7 @@ const Projects = () => {
               alt="music game"
             />
           }
-          description="An interactive and educational game for learning Major, Minor, Augmented, and Diminished triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! Built with React and Tone.js- a Web Audio framework. "
+          description="An interactive and educational game for learning Major, Minor, Augmented, and Diminished triads on a musical keyboard. As a former music teacher I liked discovering ways to make learning fun, and while working on this project I had my former students in mind! "
           github={
             <a
               href="http://github.com/cmillecan/music-app"
@@ -65,7 +65,7 @@ const Projects = () => {
           }
           description="This project primarily focuses on a back-end which stores information of a variety of Disney resources such as
 attractions and park information. It includes APIs which follow RESTful principles to expose end-points of each
-resource. Technologies include MongoDB, Express.js, React. "
+resource. "
           github={
             <a
               href="http://github.com/cmillecan/disneyland-app"
@@ -87,7 +87,7 @@ resource. Technologies include MongoDB, Express.js, React. "
               alt="memory game"
             />
           }
-          description="A memory game built with React. Features include different difficulty levels, a progress tracker, and CSS animations as players interact with the game. The implementation of this project focuses on state management, props, and component lifecycle methods in the context of the React library. "
+          description="Features include different difficulty levels, a progress tracker, and CSS animations as players interact with the game. The implementation of this project focuses on state management, props, and component lifecycle methods in the context of the React library. "
           demo={
             <a
               href="https://cmillecan.github.io/memory-game/"
@@ -141,7 +141,7 @@ resource. Technologies include MongoDB, Express.js, React. "
             />
           }
           description="FitApp is a web application for logging workouts. I specifically chose to build the front and back-end of this app in JavaScript
-         to get familiar with the language and to learn some of its frameworks. FitApp was built with React, Express, MySQL, and was deployed using AWS and Docker. "
+         to get familiar with the language and to learn some of its frameworks. Built with React, Express, MySQL, and was deployed using AWS and Docker. "
           demo={
             <a
               href="https://youtu.be/LxdsR191p_c"
