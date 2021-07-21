@@ -23,8 +23,6 @@
 }
 
 .gradient-div {
-    /*background: rgb(140,220,255);*/
-    /*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*/
     background: rgb(91, 227, 207);
     background: linear-gradient(to right, var(--pink), var(--red), var(--orange), var(--yellow), var(--primarylight), var(--secondary), var(--primary));
     height: .3rem;
