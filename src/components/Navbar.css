@@ -60,7 +60,6 @@ nav a {
 
 .social a:hover {
     color: var(--primary);
-    font-size: 30px;
     padding: 5px;
     transition: 0.2s;
 }
@@ -82,4 +81,23 @@ nav a {
 
 .logo:hover {
     color: var(--white) !important;
+}
+
+@media (max-width: 500px) {
+    nav a {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .social a {
+        font-size: 20px;
+    }
 }
