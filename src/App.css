@@ -1,12 +1,22 @@
 :root {
-    --primary: #bad2c5;
-    --primarylight: #B9F2F3;
-    --white: #ffffff;
-    --secondary: #87abd2ff;
+    --primary: #a552ff;
+    --primarylight: #6bc1b4;
+    --white: #d4d4d4;
+    --secondary: #8CDCFF;
+    --pink: #e086e9;
+    --orange: #d99a6c;
+    --red: #bc4848;
+    --yellow: #f1e574;
     --black: #474747;
+    --dark: #222222;
+    --nav: #353535;
 }
 
-/* reset some of the basic styles */
+/*
+2f3139
+
+222222
+ */
 * {
     box-sizing: border-box;
 }
@@ -14,8 +24,8 @@
 p {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    color: var(--white);
 }
-/* end reset */
 
 html {
     width: 100%;
@@ -24,7 +34,7 @@ html {
 }
 
 body {
-    background-color: #f6f4f0;
+    background-color: var(--dark);
     margin: 0;
     padding: 0;
 }
@@ -43,7 +53,7 @@ a:hover {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color: var(--black);
+    color: var(--white);
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;

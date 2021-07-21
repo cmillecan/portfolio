@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #353535;
+    background-color: var(--nav);
     overflow: hidden;
     position: sticky;
     width: 100%;

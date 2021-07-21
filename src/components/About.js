@@ -6,16 +6,14 @@ import styled from "styled-components";
 const ResumeButton = styled.button`
   font-size: 14px;
   color: var(--white);
-  background: var(--secondary);
-  border: 1px solid var(--secondary);
+  background: transparent;
+  border: 1px solid var(--white);
   padding: 10px;
   margin-top: 30px;
 
   &:hover {
-    opacity: 60%;
-    background: transparent;
-    color: #292626;
-    border: 1px solid var(--secondary);
+    color: var(--pink);
+    border: 1px solid var(--pink);
     cursor: pointer;
     transition: 0.2s;
   }
@@ -24,7 +22,9 @@ const ResumeButton = styled.button`
 const About = () => {
   return (
     <Section id="about">
-      <h1>Constance Millecan</h1>
+      <div className="name">
+        <h1>Constance Millecan</h1>
+      </div>
       <h5>software engineer</h5>
       <div className="about">
         <div className="about-left">

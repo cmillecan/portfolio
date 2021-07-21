@@ -5,12 +5,9 @@
 .complete-project {
     display: flex;
     flex-direction: column;
-    /*box-shadow: 0 0 5px 2px #d6d6d6;*/
     justify-content: center;
     margin-right: 30px;
     margin-left: 30px;
-    /*background: var(--white);*/
-    /*border-radius: 7px;*/
 }
 
 .project-card {
@@ -24,26 +21,16 @@
 }
 
 .project-card a {
-    color: var(--black);
+    color: var(--white);
     padding: 1px;
     font-size: 20px;
     font-weight: bold;
 }
 
 .project-card a:hover {
-    color: var(--secondary);
+    color: var(--primary);
     transition: 0.2s;
 }
-
-/*.project-right {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    justify-content: space-between;*/
-/*    max-width: 300px;*/
-/*    min-width: 300px;*/
-/*    min-height: 350px;*/
-/*    max-height: 350px;*/
-/*}*/
 
 .project-name {
     text-align: left;
@@ -61,21 +48,10 @@
 .project-img img {
     width: 100%;
     height: auto;
-    box-shadow: 2px 3px 5px #ababab;
+    box-shadow: 2px 3px 5px rgba(0,0,0,0.5);
     border-radius: 4px;
     margin-bottom: 1.5rem;
 }
-
-/*.gradient-div {*/
-/*    !*background: rgb(140,220,255);*!*/
-/*    !*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*!*/
-/*    background: rgb(91,227,207);*/
-/*    background: linear-gradient(270deg, rgb(185, 242, 243) 21%, rgb(140, 220, 255) 51%, rgb(140, 72, 217) 96%);*/
-/*    height: .3rem;*/
-/*    width: 70%;*/
-/*    margin-top: 10px;*/
-/*    margin-bottom: 10px;*/
-/*}*/
 
 .project-description {
     max-height: 100px;

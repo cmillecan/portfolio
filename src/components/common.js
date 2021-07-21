@@ -9,7 +9,7 @@ export const SectionHeader = styled.h2`
   text-transform: lowercase;
   font-size: 30px;
   text-align: left;
-  color: var(--black);
+  color: var(--primary);
 `;
 
 export const SectionWrapper = styled.div`
@@ -34,7 +34,7 @@ export const Paragraph = styled.p`
   font-family: "Inter", sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: var(--black);
+  color: var(--white);
   font-weight: bolder;
 `;
 

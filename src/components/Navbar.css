@@ -1,22 +1,40 @@
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
 .navbar {
-    background: #d0efdd;
+    background: var(--nav);
     font-size: 18px;
     display: flex;
-    box-shadow: 0 0 5px 2px #d6d6d6;
+    /*box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);*/
     flex: 1;
     align-items: center;
     justify-content: space-between;
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    font-family: 'Inter', sans-serif;
+    padding: 0 25px;
     min-height: 75px;
     max-height: 75px;
-    font-family: 'Inter', sans-serif;
+}
+
+.gradient-div {
+    /*background: rgb(140,220,255);*/
+    /*background: linear-gradient(270deg, rgba(140,220,255,1) 12%, rgba(80,201,255,1) 30%, rgb(110, 94, 254) 74%);*/
+    background: rgb(91, 227, 207);
+    background: linear-gradient(to right, var(--pink), var(--red), var(--orange), var(--yellow), var(--primarylight), var(--secondary), var(--primary));
+    height: .3rem;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
 }
 
 nav a {
-    color: var(--black);
+    color: var(--white);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
@@ -36,20 +54,21 @@ nav a {
 }
 
 .social a {
-    color: var(--black);
+    color: var(--white);
     font-size: 30px;
     padding: 5px;
     margin-right: 5px;
 }
 
 .social a:hover {
-    color: var(--secondary);
+    color: var(--primary);
     font-size: 30px;
     padding: 5px;
     transition: 0.2s;
 }
 
 .logo {
+    display: flex;
     width: 65px;
     height: 60px;
     text-align: center;
@@ -57,12 +76,12 @@ nav a {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: bolder;
-    color: var(--black);
+    color: var(--white);
     padding: 7px;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
 .logo:hover {
-    color: var(--black) !important;
+    color: var(--white) !important;
 }
