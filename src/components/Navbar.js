@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 
@@ -32,22 +32,6 @@ const Navbar = () => {
           >
             Projects
           </Link>
-        </div>
-        <div className="social">
-          <a
-            href="https://www.linkedin.com/in/constance-m-8672151a1/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-linkedin"></i>
-          </a>
-          <a
-            href="http://github.com/cmillecan"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <i className="fab fa-github-square"></i>
-          </a>
         </div>
       </nav>
       <div className="gradient-div" />

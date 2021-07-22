@@ -7,16 +7,11 @@
     --orange: #d99a6c;
     --red: #bc4848;
     --yellow: #f1e574;
-    --black: #474747;
+    --black: #393939;
     --dark: #222222;
     --nav: #353535;
 }
 
-/*
-2f3139
-
-222222
- */
 * {
     box-sizing: border-box;
 }
