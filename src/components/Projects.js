@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects-content">
         <ProjectCard
           title="Blog"
-          type="MongoDB, Express.js, React"
+          type="React, Responsive Design, AWS Amplify"
           date="June 2021"
           image={
             <img
@@ -19,7 +19,16 @@ const Projects = () => {
               alt="blog"
             />
           }
-          description="A blog that renders custom styled Markdown built with React, Express, MongoDB. "
+          description="A responsive blog that renders custom styled Markdown built with React. It was deployed using AWS Amplify. "
+          demo={
+            <a
+              href="https://notesandbytes.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fas fa-eye" />
+            </a>
+          }
         />
         <ProjectCard
           title="Music Theory App"

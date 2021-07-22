@@ -9,7 +9,7 @@ const ResumeButton = styled.button`
   background: transparent;
   border: 1px solid var(--white);
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
 
   &:hover {
     color: var(--pink);

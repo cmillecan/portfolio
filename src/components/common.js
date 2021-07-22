@@ -9,7 +9,7 @@ export const SectionHeader = styled.h2`
   text-transform: lowercase;
   font-size: 30px;
   text-align: left;
-  color: var(--primary);
+  color: var(--white);
 `;
 
 export const SectionWrapper = styled.div`

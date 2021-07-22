@@ -89,7 +89,6 @@
 }
 
 .resume-button {
-    margin-top: 5px;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -113,6 +112,10 @@
 
     .about-box {
         margin: 0 20px;
+    }
+
+    .resume-button {
+        margin-top: 20px;
     }
 }
 
