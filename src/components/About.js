@@ -3,21 +3,21 @@ import Section from "./Section";
 import "./About.css";
 import styled from "styled-components";
 
-const ResumeButton = styled.button`
-  font-size: 14px;
-  color: var(--white);
-  background: transparent;
-  border: 1px solid var(--white);
-  padding: 10px;
-  margin-top: 10px;
-
-  &:hover {
-    color: var(--pink);
-    border: 1px solid var(--pink);
-    cursor: pointer;
-    transition: 0.2s;
-  }
-`;
+// const ResumeButton = styled.button`
+//   font-size: 14px;
+//   color: var(--white);
+//   background: transparent;
+//   border: 1px solid var(--white);
+//   padding: 10px;
+//   margin-top: 10px;
+//
+//   &:hover {
+//     color: var(--pink);
+//     border: 1px solid var(--pink);
+//     cursor: pointer;
+//     transition: 0.2s;
+//   }
+// `;
 
 const About = () => {
   return (
@@ -65,15 +65,6 @@ const About = () => {
               mind to keep going.
             </p>
           </div>
-        </div>
-        <div className="resume-button">
-          <a
-            href="https://drive.google.com/file/d/1qO-A_QBr4s-P8FVecaRJyF23bjTS38Wf/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <ResumeButton>Resume</ResumeButton>
-          </a>
         </div>
       </div>
     </Section>

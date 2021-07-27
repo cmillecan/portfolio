@@ -75,6 +75,7 @@
 @media (max-width: 500px) {
     .nav-links a {
         font-size: 15px;
+        padding: 15px;
     }
 
     .navbar {

@@ -88,12 +88,6 @@
     transition: 0.2s;
 }
 
-.resume-button {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
 @media (max-width: 855px) {
     .about-div p {
         font-size: 18px;
