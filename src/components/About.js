@@ -68,11 +68,11 @@ const About = () => {
         </div>
         <div className="resume-button">
           <a
-            href="https://drive.google.com/file/d/1OWJhX5NrNC4ITwhz0lnHNkwgaZazszT2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qO-A_QBr4s-P8FVecaRJyF23bjTS38Wf/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
-            <ResumeButton>Download Resume</ResumeButton>
+            <ResumeButton>Resume</ResumeButton>
           </a>
         </div>
       </div>
