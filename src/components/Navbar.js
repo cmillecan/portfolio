@@ -44,10 +44,7 @@ const Navbar = () => {
       </nav>
       <div className="pretty-colors-border">
         <ul>
-          {/*<li className="red"></li>*/}
           <li className="pink"></li>
-          {/*<li className="orange"></li>*/}
-          {/*<li className="yellow"></li>*/}
           <li className="green"></li>
           <li className="yellow"></li>
           <li className="blue"></li>
