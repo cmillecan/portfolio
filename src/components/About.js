@@ -29,11 +29,14 @@ const About = () => {
         </div>
         <div className="about-box">
           <div className="about-left">
-            <img
-              className="about-pic"
-              src="https://i.imgur.com/DOrIxZr.jpg"
-              alt="headshot"
-            />
+            <div className="image-container">
+              <div className="image-border"></div>
+              <img
+                className="about-pic"
+                src="https://i.imgur.com/DOrIxZr.jpg"
+                alt="headshot"
+              />
+            </div>
             <div className="social">
               <a
                 href="https://www.linkedin.com/in/constance-m-8672151a1/"

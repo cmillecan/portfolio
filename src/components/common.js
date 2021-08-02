@@ -21,7 +21,7 @@ export const SectionWrapper = styled.div`
 
 export const ContentLabel = styled.h4`
   font-family: "Inter", sans-serif;
-  color: var(--secondary);
+  color: var(--green);
   font-weight: ${(props) => (props.bold ? "bolder" : "lighter")};
   //text-align: ${(props) => (props.left ? "flex-start" : "center")};
   line-height: 0;

@@ -28,7 +28,7 @@
 }
 
 .project-card a:hover {
-    color: var(--primary);
+    color: var(--secondary);
     transition: 0.2s;
 }
 

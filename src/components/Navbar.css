@@ -44,7 +44,6 @@
 
 .nav-links a:hover {
     color: var(--primary);
-    background-color: var(--black);
     cursor: pointer;
     transition: 0.2s;
 }
@@ -70,6 +69,62 @@
 
 .logo:hover {
     color: var(--white) !important;
+}
+
+.pretty-colors-border {
+    margin: 0;
+}
+
+.pretty-colors-border ul {
+    display: flex;
+    width: 100%;
+    list-style-type: disc;
+    padding: 0;
+    margin: 0;
+}
+
+.pretty-colors-border li {
+    width: 40vw;
+    height: 10px;
+    display: list-item;
+}
+
+.white {
+    list-style-type: none;
+    background: var(--white2);
+}
+
+.primary {
+    list-style-type: none;
+    background: var(--primary);
+}
+.green {
+    list-style-type: none;
+    background: var(--primarylight);
+}
+.orange {
+    list-style-type: none;
+    background: var(--orange);
+}
+
+.yellow {
+    list-style-type: none;
+
+    background: var(--yellow);
+}
+.blue {
+    list-style-type: none;
+
+    background: var(--blue);
+}
+.pink {
+    list-style-type: none;
+    background: var(--pink);
+}
+
+.red {
+    list-style-type: none;
+    background: var(--red);
 }
 
 @media (max-width: 500px) {

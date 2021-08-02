@@ -64,7 +64,7 @@
 .about-pic {
     margin-top: 5px;
     width: 200px;
-    box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);
+    /*box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);*/
 }
 
 .social {
@@ -83,7 +83,7 @@
 }
 
 .social a:hover {
-    color: var(--primary);
+    color: var(--yellow);
     padding: 5px;
     transition: 0.2s;
 }
