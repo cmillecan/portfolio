@@ -34,7 +34,7 @@ const Navbar = () => {
           </Link>
           <a
             alt="resume"
-            href="https://drive.google.com/file/d/1zq5WFNYFbK92trIyCjCY3HXs19BvRjfw/view?usp=sharing"
+            href="https://drive.google.com/file/d/1DLkK7UinY0729XbSHJUKW933GzykpoXc/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
           >
