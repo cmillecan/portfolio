@@ -1,57 +1,55 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import { Link } from "react-scroll";
+import Logo from "../images/logo.png";
 
 const Navbar = () => {
   const linkOffset = -145;
 
   return (
-    <div className="nav-container">
-      <nav className="navbar">
-        <a className="logo" href="/">
-          cm
+    <nav className="navbar">
+      <Link
+        className="logo"
+        activeClass="active"
+        to="hero"
+        spy
+        smooth
+        offset={linkOffset}
+        duration={500}
+      >
+        <img src={Logo} alt="logo" />
+      </Link>
+      <div className="nav-links">
+        <Link
+          activeClass="active"
+          to="projects"
+          spy
+          smooth
+          offset={-100}
+          duration={500}
+        >
+          Projects
+        </Link>
+        <Link
+          activeClass="active"
+          to="about"
+          spy
+          smooth
+          offset={linkOffset}
+          duration={500}
+        >
+          About
+        </Link>
+        <a
+          alt="resume"
+          href="https://drive.google.com/file/d/1DLkK7UinY0729XbSHJUKW933GzykpoXc/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Resume
         </a>
-        <div className="nav-links">
-          <Link
-            activeClass="active"
-            to="about"
-            spy
-            smooth
-            offset={linkOffset}
-            duration={500}
-          >
-            About
-          </Link>
-          <Link
-            activeClass="active"
-            to="projects"
-            spy
-            smooth
-            offset={-100}
-            duration={500}
-          >
-            Projects
-          </Link>
-          <a
-            alt="resume"
-            href="https://drive.google.com/file/d/1zq5WFNYFbK92trIyCjCY3HXs19BvRjfw/view?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume
-          </a>
-        </div>
-      </nav>
-      <div className="pretty-colors-border">
-        <ul>
-          <li className="pink"></li>
-          <li className="green"></li>
-          <li className="yellow"></li>
-          <li className="blue"></li>
-        </ul>
       </div>
-      {/*<div className="gradient-div" />*/}
-    </div>
+    </nav>
   );
 };
 

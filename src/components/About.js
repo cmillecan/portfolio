@@ -23,49 +23,42 @@ const About = () => {
   return (
     <Section id="about">
       <div className="about-div">
-        <div className="name">
-          <h1>Constance Millecan</h1>
-          <h5>software engineer</h5>
-        </div>
         <div className="about-box">
           <div className="about-left">
             <div className="image-container">
-              <div className="image-border"></div>
+              {/*<div className="image-border">*/}
               <img
                 className="about-pic"
                 src="https://i.imgur.com/DOrIxZr.jpg"
                 alt="headshot"
               />
-            </div>
-            <div className="social">
-              <a
-                href="https://www.linkedin.com/in/constance-m-8672151a1/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-linkedin-in" />
-              </a>
-              <a
-                href="http://github.com/cmillecan"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fab fa-github-alt" />
-              </a>
+              {/*</div>*/}
             </div>
           </div>
           <div className="about-right">
+            <div className="name">
+              <h3>
+                Hi, I'm <strong>Connie</strong>
+              </h3>
+            </div>
             <p>
-              Hi! I am a software engineer and musician passionate about
-              creativity. I enjoy full-stack development and am especially
-              enthusiastic about front-end development. As a software engineer,
-              I'm always focused on how code feels, looks, and functions but am
-              also detail-oriented about visual elements. I have enjoyed working
-              on full-stack projects and learning how the front-end and back-end
-              communicate with each other. What excites me the most about
-              software engineering is that learning is never-ending and the
-              small challenges that I continuously overcome motivate my curious
-              mind to keep going.
+              I am a software engineer and musician passionate about creativity.
+              I enjoy full-stack development and am especially enthusiastic
+              about front-end development.
+            </p>
+            <br />
+            <p>
+              As a software engineer, I'm always focused on how code feels,
+              looks, and functions but am also detail-oriented about visual
+              elements. I have enjoyed working on full-stack projects and
+              learning how the front-end and back-end communicate with each
+              other.
+            </p>
+            <br />
+            <p>
+              What excites me the most about software engineering is that
+              learning is never-ending and the small challenges that I
+              continuously overcome motivate my curious mind to keep going.
             </p>
           </div>
         </div>

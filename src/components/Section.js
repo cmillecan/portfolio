@@ -6,7 +6,7 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 55px;
+  margin-top: 70px;
   margin-bottom: 10px;
 `;
 

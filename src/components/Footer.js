@@ -1,14 +1,13 @@
 import React from "react";
 import "./Footer.css";
-import { ContentLabel } from "./common";
-import flower from "../images/cmkoreansymbol.svg";
+// import flower from "../images/cmkoreansymbol.svg";
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="footer-content">
-        <img src={flower} alt="constance millecan website logo" />
-        <ContentLabel>© 2021 Constance Millecan</ContentLabel>
+        {/*<img src={flower} alt="constance millecan website logo" />*/}
+        <p>© 2021 Constance Millecan</p>
       </div>
     </div>
   );
