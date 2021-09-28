@@ -1,19 +1,16 @@
 :root {
-    --primary: #38c3ff;
-    --primarylight: #45ffe1;
-    --white: #d4d4d4;
-    --white2: #ffffff;
-    --secondary: #ef6bff;
-    --pink: #ef6bff;
-    --orange: #ffab6f;
-    --red: #ff6868;
-    --green: #45ffe1;
-    --yellow: #fff78d;
-    --purple: #a552ff;
-    --blue: #38c3ff;
-    --black: #2b2b2b;
+    --primary: #ff7648;
+    --primarylight: #ffe1de;
+    --white: #ffffff;
+    --secondary: #3eb5d4;
+    --secondarylight: #b1eeff;
+    --black: #2d2d2d;
     --dark: #161616;
-    --nav: #222222;
+    --brown: #5d5151;
+    --lightbrown: #bcabab;
+    --lightbrown2: #f3ecec;
+    --bg: #ffffff;
+    --bg-light: #fff2f1;
 }
 
 * {
@@ -22,13 +19,9 @@
 
 p {
     margin: 0;
-    font-family: 'Lato', sans-serif;
-    color: var(--white);
+    font-family: 'Quicksand', sans-serif;
+    color: var(--brown);
     
-}
-
-bold {
-    color: var(--green);
 }
 
 html {
@@ -38,17 +31,17 @@ html {
 }
 
 body {
-    background-color: var(--dark);
+    background-color: var(--bg);
     margin: 0;
     padding: 0;
 }
 
 a {
+    font-family: 'Quicksand', sans-serif;
     color: var(--primary);
     text-decoration: none;
     text-transform: lowercase;
-    font-family: 'Inter', sans-serif;
-    font-weight: normal;
+    font-weight: lighter;
 }
 
 a:hover {
@@ -56,11 +49,27 @@ a:hover {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--white);
+    font-family: "Inter", sans-serif;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: bolder;
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
+    display: inline;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--black);
+    /*text-align: left;*/
+    font-size: 26px;
+    margin: 5px 0;
+    /*background-image: linear-gradient(transparent 0,transparent 55%,var(--secondarylight) 55%,var(--secondarylight) 90%,transparent 90%,transparent 100%);*/
+}
+
+strong {
+    color: var(--secondary);
 }
 
 @media (max-width: 400px) {
@@ -69,13 +78,4 @@ h1 {
     }
 }
 
-h5 {
-    line-height: 0;
-    font-weight: lighter;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: var(--primary);
-    margin-top: 20px;
-}
 

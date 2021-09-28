@@ -5,11 +5,19 @@ export const SectionHeader = styled.h2`
   margin-top: 10px;
   line-height: 0;
   font-weight: bolder;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: lowercase;
-  font-size: 30px;
-  text-align: left;
-  color: var(--white);
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: var(--brown);
+  background-image: linear-gradient(
+    transparent 0,
+    transparent 55%,
+    var(--secondarylight) 55%,
+    var(--secondarylight) 90%,
+    transparent 90%,
+    transparent 100%
+  );
+  background-repeat: no-repeat;
 `;
 
 export const SectionWrapper = styled.div`
@@ -20,22 +28,20 @@ export const SectionWrapper = styled.div`
 `;
 
 export const ContentLabel = styled.h4`
-  font-family: "Inter", sans-serif;
-  color: var(--green);
-  font-weight: ${(props) => (props.bold ? "bolder" : "lighter")};
-  //text-align: ${(props) => (props.left ? "flex-start" : "center")};
-  line-height: 0;
+  font-family: "Quicksand", sans-serif;
+  color: var(--primary);
+  text-align: center;
   font-size: 15px;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin: 12px 0;
 `;
 
 export const Paragraph = styled.p`
-  font-family: "Inter", sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  color: var(--white);
-  font-weight: bolder;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--brown);
+  font-weight: lighter;
+  letter-spacing: 0.01em;
 `;
 
 const StyledUl = styled.ul`

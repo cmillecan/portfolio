@@ -1,9 +1,8 @@
 .footer-container {
-    background-color: var(--nav);
+    background-color: var(--bg-light);
     overflow: hidden;
     position: sticky;
     width: 100%;
-    margin-top: 50px;
 }
 
 .footer-content {
