@@ -33,6 +33,9 @@
 }
 
 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 450px;
     height: 270px;
     padding: 15px;
@@ -78,15 +81,19 @@
 @media (max-width: 780px) {
     .project-card {
         margin: 100px 0 90px;
+        width: 350px;
     }
     .project-row {
-       flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .project-title {
         margin-bottom: 20px;
     }
     .technologies {
         justify-content: center;
+    }
+    .project-description {
+        width: 350px;
     }
     .left {
         margin: 0;

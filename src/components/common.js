@@ -42,6 +42,9 @@ export const Paragraph = styled.p`
   color: var(--brown);
   font-weight: lighter;
   letter-spacing: 0.01em;
+  @media (max-width: 780px) {
+    font-size: 16px;
+  }
 `;
 
 const StyledUl = styled.ul`
