@@ -44,6 +44,7 @@ export const Paragraph = styled.p`
   letter-spacing: 0.01em;
   @media (max-width: 780px) {
     font-size: 16px;
+    text-align: center;
   }
 `;
 

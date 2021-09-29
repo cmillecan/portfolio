@@ -9,7 +9,6 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <Link
-        className="logo"
         activeClass="active"
         to="hero"
         spy
@@ -17,7 +16,7 @@ const Navbar = () => {
         offset={linkOffset}
         duration={500}
       >
-        <img src={Logo} alt="logo" />
+        <img className="logo" src={Logo} alt="logo" />
       </Link>
       <div className="nav-links">
         <Link
