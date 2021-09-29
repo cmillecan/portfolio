@@ -81,38 +81,14 @@
     animation-duration: 1s;
 }
 
-@media (max-width: 855px) {
-    .hero-box {
-        margin: 0 20px;
-    }
-}
-
-@media (max-width: 797px) {
-    .hero-div p {
-        line-height: 28px;
-    }
-
-    .hero-box {
-        margin: 0 20px;
-    }
-}
-
-@media (max-width: 714px) {
-    .hero-div p {
-        font-size: 18px;
-        line-height: 28px;
-    }
-}
-
-@media (max-width: 700px) {
+@media (max-width: 650px) {
     .hero-box {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .hero-right {
-        min-width: 300px;
-        max-width: 400px;
+        display: none;
     }
     .hero-div p {
         line-height: 25px;
@@ -133,8 +109,5 @@
     }
     .hero-div {
         margin: 10px 0;
-    }
-    .name h3 {
-        font-size: 40px;
     }
 }

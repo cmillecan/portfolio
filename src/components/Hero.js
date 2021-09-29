@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Heroimg from "../images/heroimg2.png";
+import Heroimg from "../images/heroimg.png";
 import Section from "./Section";
 import "animate.css";
 
