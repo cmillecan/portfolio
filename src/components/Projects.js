@@ -2,7 +2,6 @@ import React from "react";
 import Section from "./Section";
 import "./Projects.css";
 import ProjectCard from "./ProjectCard";
-import Blog from "../images/projects/portfolio-blog.png";
 import FitApp from "../images/projects/portfolio-fitapp.png";
 import Disney from "../images/projects/portfolio-disney.png";
 import Music from "../images/projects/portfolio-music.png";
@@ -14,22 +13,22 @@ const Projects = () => {
   return (
     <Section id="projects">
       <div className="projects-content">
-        <ProjectCard
-          title="Blog"
-          types={["React", "Responsive Design", "AWS", "Amplify"]}
-          date="June 2021"
-          image={<img className="project-img" src={Blog} alt="blog" />}
-          description="A responsive blog that renders custom styled Markdown built with React. It was deployed using AWS Amplify. "
-          demo={
-            <a
-              href="https://notesandbytes.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Demo
-            </a>
-          }
-        />
+        {/*<ProjectCard*/}
+        {/*  title="Blog"*/}
+        {/*  types={["React", "Responsive Design", "AWS", "Amplify"]}*/}
+        {/*  date="June 2021"*/}
+        {/*  image={ alt="blog" />}*/}
+        {/*  description="A responsive blog that renders custom styled Markdown built with React. It was deployed using AWS Amplify. "*/}
+        {/*  demo={*/}
+        {/*    <a*/}
+        {/*      href="https://notesandbytes.com"*/}
+        {/*      target="_blank"*/}
+        {/*      rel="noreferrer"*/}
+        {/*    >*/}
+        {/*      Demo*/}
+        {/*    </a>*/}
+        {/*  }*/}
+        {/*/>*/}
         <ProjectCard
           title="Music Theory App"
           types={["React", "Tone.js"]}
