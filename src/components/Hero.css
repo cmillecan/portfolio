@@ -43,6 +43,10 @@
     flex-direction: column;
 }
 
+.hero-role {
+    color: var(--secondary);
+}
+
 .name {
     display: flex;
     text-align: center;

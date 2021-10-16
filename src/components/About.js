@@ -24,14 +24,14 @@ const About = () => {
     <Section id="about">
       <div className="about-div">
         <div className="name">
-          <h3>
-            Hi, I'm <strong>Connie</strong>!
-          </h3>
+          <h3>Hi, I'm Connie!</h3>
         </div>
         <div className="about-box">
           <div className="about-me-paragraph">
-            <div className="about-pic">
-              <img src="https://i.imgur.com/DOrIxZr.jpg" alt="headshot" />
+            <div className="about-pic-wrapper">
+              <div className="about-pic">
+                <img src="https://i.imgur.com/DOrIxZr.jpg" alt="headshot" />
+              </div>
             </div>
             <p>
               I am a software engineer and musician passionate about creativity.

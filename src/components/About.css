@@ -42,11 +42,23 @@
     margin-bottom: 10px;
 }
 
-.about-pic {
-    width: 250px;
+.about-pic-wrapper {
     float: left;
     margin: 5px 15px 0 0;
-    /*box-shadow: 0 0 5px 2px rgba(0,0,0,0.5);*/
+}
+
+.about-pic {
+    position: relative;
+    border: 1px solid var(--primary);
+    width: 250px;
+    height: 290px;
+}
+
+.about-pic img {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    z-index: 10;
 }
 
 .social {
@@ -124,6 +136,17 @@
 
     .about-me-paragraph {
         width: 340px;
+    }
+
+    .about-pic-wrapper {
+        float: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-pic {
+        width: 200px;
+        height: 232px;
     }
 
     .about-pic img {

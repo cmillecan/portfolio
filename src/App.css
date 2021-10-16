@@ -68,10 +68,6 @@ h3 {
     /*background-image: linear-gradient(transparent 0,transparent 55%,var(--secondarylight) 55%,var(--secondarylight) 90%,transparent 90%,transparent 100%);*/
 }
 
-strong {
-    color: var(--secondary);
-}
-
 @media (max-width: 400px) {
     h1 {
         font-size: 26px;

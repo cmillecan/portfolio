@@ -10,9 +10,7 @@ const Hero = () => {
       <div className="hero-box">
         <div className="hero-left">
           <h1>Constance Millecan</h1>
-          <h3>
-            <strong>Software Engineer</strong>
-          </h3>
+          <h3 className="hero-role">Software Engineer</h3>
           <div className="social">
             <a
               href="https://www.linkedin.com/in/constance-m-8672151a1/"
