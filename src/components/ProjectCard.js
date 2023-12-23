@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./ProjectCard.css";
-import { ContentLabel, Paragraph, SectionHeader } from "./common";
+import { ContentLabel, Paragraph } from "./common";
 import Pill from "./Pill";
 import styled from "styled-components";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink, faCode } from '@fortawesome/free-solid-svg-icons';
 
 const ProjectLinkBackground = styled.div`
   display: flex;
@@ -27,34 +29,39 @@ const ProjectCard = (props) => {
 
   return (
     <div className="project-card">
-      <div className="project-title">
-        <h1>{title}</h1>
-      </div>
-      <div className="project-row">
         <div className="left">
           <div className="project-img">{image}</div>
-          <ProjectLinkBackground
-            isVisible={showProjectLinks}
-            onMouseOver={() => setShowProjectLinks(true)}
-            onMouseLeave={() => setShowProjectLinks(false)}
-          >
-            <div className="project-links">
-              {github ? github : ""}
-              {demo ? demo : ""}
-            </div>
-          </ProjectLinkBackground>
+          <div className="project-links">
+            {github && (
+                <div className='link-icon'>
+                  <a href={github} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faCode} />
+                  </a>
+                </div>
+            )}
+            {demo && (
+                <div className='link-icon'>
+                  <a href={demo} target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faLink} />
+                  </a>
+                </div>
+            )}
+          </div>
         </div>
         <div className="right">
+          <div className='project-title'>
+            <h2>{title}</h2>
+          </div>
+
+          <div className="project-description">
+            <Paragraph>{description}</Paragraph>
+          </div>
           <ContentLabel className="technologies">
             {types.map((type) => {
               return <Pill key={type}>{type}</Pill>;
             })}
           </ContentLabel>
-          <div className="project-description">
-            <Paragraph>{description}</Paragraph>
-          </div>
         </div>
-      </div>
     </div>
   );
 };

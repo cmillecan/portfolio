@@ -6,8 +6,12 @@ const SectionWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 70px;
   margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    margin-top: 20px; /* Example change */
+    margin-bottom: 0;
+  }
 `;
 
 const Section = (props) => {

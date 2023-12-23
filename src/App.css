@@ -1,16 +1,10 @@
 :root {
-    --primary: #ff7648;
-    --primarylight: #ffe1de;
-    --white: #ffffff;
-    --secondary: #3eb5d4;
-    --secondarylight: #b1eeff;
-    --black: #2d2d2d;
-    --dark: #161616;
-    --brown: #5d5151;
-    --lightbrown: #bcabab;
-    --lightbrown2: #f3ecec;
+    --primary: #1D5B79;
+    --primarylight: #468B97;
+    --secondary: #EF6262;
+    --secondarylight: #F3AA60;
     --bg: #ffffff;
-    --bg-light: #fff2f1;
+    --font: #132C33;
 }
 
 * {
@@ -18,10 +12,12 @@
 }
 
 p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: normal;
+    color: var(--font);
     margin: 0;
-    font-family: 'Quicksand', sans-serif;
-    color: var(--brown);
-    
 }
 
 html {
@@ -34,14 +30,14 @@ body {
     background-color: var(--bg);
     margin: 0;
     padding: 0;
+
 }
 
 a {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: var(--primary);
+    font-weight: bold;
     text-decoration: none;
-    text-transform: lowercase;
-    font-weight: lighter;
 }
 
 a:hover {
@@ -49,28 +45,59 @@ a:hover {
 }
 
 h1 {
-    font-family: "Inter", sans-serif;
-    color: var(--black);
-    text-transform: uppercase;
+    font-family: 'Manrope', sans-serif;
+    color: var(--primary);
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: inline;
+}
+
+h2 {
+    font-family: 'Manrope', sans-serif;
+    color: var(--primary);
+    font-weight: bolder;
+    font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
     display: inline;
 }
 
 h3 {
-    font-family: 'Quicksand', sans-serif;
-    color: var(--black);
-    /*text-align: left;*/
-    font-size: 26px;
-    margin: 5px 0;
-    /*background-image: linear-gradient(transparent 0,transparent 55%,var(--secondarylight) 55%,var(--secondarylight) 90%,transparent 90%,transparent 100%);*/
+    font-family: "Inter", sans-serif;
+    color: var(--primarylight);
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5px 0 0;
 }
 
-@media (max-width: 400px) {
+h4 {
+    font-family: "Inter", sans-serif;
+    color: var(--primarylight);
+    font-weight: normal;
+    font-size: 12px;
+    margin: 10px 0;
+    display: inline;
+}
+
+h5 {
+    font-family: 'Manrope', sans-serif;
+    color: var(--primary);
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
     h1 {
-        font-size: 26px;
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
 

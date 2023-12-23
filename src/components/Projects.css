@@ -2,7 +2,22 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 200px;
+}
+
+.projects-header {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .projects-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .projects-header {
+        display: contents;
+    }
 }

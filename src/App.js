@@ -4,8 +4,8 @@ import Portfolio from './components/Layout';
 
 function App() {
   return (
-    <Portfolio />
-  );
+  <Portfolio />
+);
 }
 
 export default App;

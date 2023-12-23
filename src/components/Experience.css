@@ -1,0 +1,29 @@
+.experience-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.experience-header {
+    display: none;
+}
+
+.job-title {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .experience-content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .experience-header {
+        display: contents;
+    }
+}

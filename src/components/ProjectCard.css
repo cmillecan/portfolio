@@ -1,42 +1,30 @@
 .project-card {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 350px;
-    margin-bottom: 40px;
-}
-
-.project-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-}
-
-.project-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 30px;
 }
 
 .left {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
     width: 350px;
-    margin: 15px 10px;
 }
 
 .right {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 0 0 10px 15px;
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
 }
 
 .technologies {
@@ -44,28 +32,27 @@
     flex-wrap: wrap;
 }
 
+.project-links {
+    display: flex;
+    margin-top: 2px;
+}
+
 .project-links a {
     text-align: center;
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
-    border: 1px solid var(--white);
-    border-radius: 30px;
-    margin: 0 5px;
-    font-size: 20px;
-    padding: 10px 20px;
+    color: var(--primary);
+    font-size: 10px;
+    padding: 2px 7px;
 }
 
 .project-links a:hover {
-    color: var(--primary);
-    border: 1px solid var(--primary);
+    color: var(--secondary);
     cursor: pointer;
     transition: 0.2s;
 }
 
 .project-img {
-    width: 350px;
-    height: 239px;
+    width: 110px;
+    height: 80px;
     box-shadow: 2px 3px 5px rgba(198, 197, 197, 0.5);
     border-radius: 4px;
 }
@@ -74,29 +61,25 @@
     opacity: 2;
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .project-card {
-        margin: 100px 0 90px;
-        width: 350px;
-    }
-    .project-row {
-        flex-wrap: wrap;
-    }
-    .project-title {
-        margin-bottom: 20px;
-    }
-    .technologies {
-        justify-content: center;
-    }
-    .project-description {
-        margin-top: 0;
-        width: 350px;
-    }
-    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 0;
         margin: 0;
     }
-    .right {
-        margin: 10px 0;
+
+    .left {
         padding: 0;
+        margin: 0 0 10px 0;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .right {
+        padding: 0;
+        margin-bottom: 30px;
     }
 }

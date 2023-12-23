@@ -2,26 +2,23 @@ import React from "react";
 import "./Layout.css";
 import Projects from "./Projects";
 import About from "./About";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Hero from "./Hero";
+import LeftSection from "./LeftSection";
+import Experience from "./Experience";
 
 const Portfolio = () => {
-  return (
-    <div className="portfolio-container">
-      <Navbar />
-      <div className="main-content">
-        <Hero />
-      </div>
-      <div className="projects-container">
-        <Projects />
-      </div>
-      <div className="main-section">
-        <About />
-      </div>
-      <Footer />
-    </div>
-  );
+    return (
+        <div className="portfolio-container">
+            <div className="colorful-bar"/>
+            <div className="left-content">
+                <LeftSection />
+            </div>
+            <div className="right-content">
+                <About />
+                <Experience />
+                <Projects />
+            </div>
+        </div>
+    );
 };
 
 export default Portfolio;
