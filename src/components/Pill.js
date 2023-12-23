@@ -4,7 +4,7 @@ const Pill = styled.div`
   width: auto;
   border-radius: 25px;
   padding: 2px 8px;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: normal;
   margin-right: 5px;
   margin-bottom: 5px;

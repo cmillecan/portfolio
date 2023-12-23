@@ -1,7 +1,6 @@
 import React from "react";
 import Section from "./Section";
 import "./About.css";
-import styled from "styled-components";
 
 // const ResumeButton = styled.button`
 //   font-size: 14px;

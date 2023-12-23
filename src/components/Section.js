@@ -8,7 +8,7 @@ const SectionWrapper = styled.section`
   justify-content: flex-start;
   margin-bottom: 10px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 940px) {
     margin-top: 20px; /* Example change */
     margin-bottom: 0;
   }

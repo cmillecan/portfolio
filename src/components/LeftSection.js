@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './LeftSection.css';
 import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -54,7 +54,7 @@ const LeftSection = () => {
                 </Link>
             </div>
             <div className='technologies-container'>
-                <h2>Technologies I'm interested in:</h2>
+                <h2>Technologies I've worked with:</h2>
                 <div className='technologies'>
                     <Pill><p>JavaScript</p></Pill>
                     <Pill><p>React</p></Pill>
@@ -62,6 +62,10 @@ const LeftSection = () => {
                     <Pill><p>Node</p></Pill>
                     <Pill><p>CSS</p></Pill>
                     <Pill><p>HTML</p></Pill>
+                    <Pill><p>SQL</p></Pill>
+                    <Pill><p>Redux</p></Pill>
+                    <Pill><p>AWS Services</p></Pill>
+                    <Pill><p>Jest</p></Pill>
                 </div>
 
             </div>
@@ -69,14 +73,14 @@ const LeftSection = () => {
                 <a
                     href="https://www.linkedin.com/in/constance-m-8672151a1/"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <a
                     href="http://github.com/cmillecan"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                 >
                     <FontAwesomeIcon icon={faGithubSquare} />
                 </a>

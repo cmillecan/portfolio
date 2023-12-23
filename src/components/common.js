@@ -37,9 +37,9 @@ export const ContentLabel = styled.h4`
 
 export const Paragraph = styled.p`
   font-family: 'Manrope', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.7;
-  font-weight: normal;
+  font-weight: lighter;
   color: var(--font);
   margin: 0;
 `;

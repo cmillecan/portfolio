@@ -1,31 +1,29 @@
-import React, { useState } from "react";
+import React from "react";
 import "./ProjectCard.css";
 import { ContentLabel, Paragraph } from "./common";
 import Pill from "./Pill";
-import styled from "styled-components";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink, faCode } from '@fortawesome/free-solid-svg-icons';
 
-const ProjectLinkBackground = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  border-radius: 8px;
-  transition: 0.5s ease;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: ${(props) => (props.isVisible ? "80%" : "0%")};
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-`;
+// const ProjectLinkBackground = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   background-color: black;
+//   border-radius: 8px;
+//   transition: 0.5s ease;
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   opacity: ${(props) => (props.isVisible ? "80%" : "0%")};
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   -ms-transform: translate(-50%, -50%);
+// `;
 
 const ProjectCard = (props) => {
   const { title, types, image, description, github, demo } = props;
-  const [showProjectLinks, setShowProjectLinks] = useState(false);
 
   return (
     <div className="project-card">
@@ -34,14 +32,22 @@ const ProjectCard = (props) => {
           <div className="project-links">
             {github && (
                 <div className='link-icon'>
-                  <a href={github} target="_blank" rel="noreferrer">
+                  <a
+                      href={github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faCode} />
                   </a>
                 </div>
             )}
             {demo && (
                 <div className='link-icon'>
-                  <a href={demo} target="_blank" rel="noreferrer">
+                  <a
+                      href={demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
                     <FontAwesomeIcon icon={faLink} />
                   </a>
                 </div>

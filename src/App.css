@@ -13,9 +13,9 @@
 
 p {
     font-family: 'Manrope', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.7;
-    font-weight: normal;
+    font-weight: lighter;
     color: var(--font);
     margin: 0;
 }
@@ -76,9 +76,8 @@ h4 {
     font-family: "Inter", sans-serif;
     color: var(--primarylight);
     font-weight: normal;
-    font-size: 12px;
-    margin: 10px 0;
-    display: inline;
+    font-size: 14px;
+    margin: 5px 0;
 }
 
 h5 {
@@ -94,10 +93,6 @@ h5 {
 
     h2 {
         font-size: 14px;
-    }
-
-    p {
-        font-size: 12px;
     }
 }
 

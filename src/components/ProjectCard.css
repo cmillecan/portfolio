@@ -34,13 +34,13 @@
 
 .project-links {
     display: flex;
-    margin-top: 2px;
+    margin-top: 8px;
 }
 
 .project-links a {
     text-align: center;
     color: var(--primary);
-    font-size: 10px;
+    font-size: 14px;
     padding: 2px 7px;
 }
 
@@ -61,7 +61,7 @@
     opacity: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 940px) {
     .project-card {
         display: flex;
         flex-direction: column;
