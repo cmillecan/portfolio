@@ -26,18 +26,12 @@ const About = () => {
                 <h5>About</h5>
                 </div>
                 <p>
-                    I'm a software engineer with experience in agile environments, primarily working with React and SaaS applications.
-                    I have a deep passion for frontend development, where I focus on crafting clean, efficient code and prioritizing user-friendly experiences.
+                    Hey there! I'm a software engineer with experience in agile environments, primarily working with React and SaaS applications. I have a deep passion for frontend development, where I focus on crafting clean, efficient code and prioritizing user-friendly experiences.
                 </p>
                 <p>
-                    My journey as a musician has been instrumental in shaping my approach to software engineering.
-                    The creativity, discipline, and attention to detail I developed in music are key assets in my coding and design work.
-                    This combination of artistic and technical skills enables me to develop applications that are functional, intuitive, and engaging.
-                </p>
+                    But here's a fun twist - I'm also a musician! This part of my life has been a huge influence on how I approach software engineering. It's where I learned the magic of blending creativity with discipline and the importance of sweating the small stuff. These skills are key assets in my coding and design work, helping me create apps that are functional and intuitive.                </p>
                 <p>
-                    I'm driven by the ever-evolving nature of software engineering, where continuous learning and overcoming daily
-                    challenges fuel my professional growth.
-                    Each project is a chance to blend technical skill with creativity, focusing on creating impactful and user-centric solutions.
+                    What really excites me about software engineering is its constant evolution – it's a field where learning never stops, and there's always a new challenge just around the corner. With every project I dive into, I get to blend technical skill with creativity, aiming to create impactful and user-centric solutions.
                 </p>
             </div>
         </Section>

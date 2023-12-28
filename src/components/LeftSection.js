@@ -14,10 +14,10 @@ const LeftSection = () => {
         <div className="left-container">
             <div className='name-title-container'>
                 <div className='pic'>
-                    <img src={connie} alt="Constance Millecan" />
+                    <img src={connie} alt="Connie" />
                 </div>
                 <div className='name-title-column'>
-                    <h1>Constance Millecan</h1>
+                    <h1>Connie</h1>
                     <h3>Software Engineer</h3>
                 </div>
             </div>
