@@ -3,7 +3,7 @@ import './LeftSection.css';
 import {Link} from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithubSquare } from '@fortawesome/free-brands-svg-icons';
-
+import { faDumbbell, faMusic, faUtensils } from '@fortawesome/free-solid-svg-icons';
 import connie from '../images/pic.png'
 import Pill from './Pill';
 
@@ -68,6 +68,12 @@ const LeftSection = () => {
                     <Pill><p>Jest</p></Pill>
                 </div>
 
+            </div>
+            <div className='interests'>
+                <h2>My interests:</h2>
+                <p><FontAwesomeIcon icon={faDumbbell} size="sm" color="#EF6262"/> Powerlifting</p>
+                <p><FontAwesomeIcon icon={faMusic} size="sm" color="#468B97"/> Music</p>
+                <p><FontAwesomeIcon icon={faUtensils} size="sm" color="#F3AA60"/> Cooking</p>
             </div>
             <div className="social">
                 <a

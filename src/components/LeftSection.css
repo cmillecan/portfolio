@@ -88,6 +88,9 @@
     margin-top: 10px;
 }
 
+.interests {
+    margin-top: 70px;
+}
 
 @media screen and (max-width: 940px) {
     .left-container {
@@ -101,7 +104,8 @@
     }
 
     .social,
-    .technologies-container {
+    .technologies-container,
+    .interests {
         margin-top: 20px;
     }
 
