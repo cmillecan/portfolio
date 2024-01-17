@@ -62,7 +62,7 @@ const LeftSection = () => {
                     <Pill><p>Node</p></Pill>
                     <Pill><p>CSS</p></Pill>
                     <Pill><p>HTML</p></Pill>
-                    <Pill><p>SQL</p></Pill>
+                    <Pill><p>MySQL</p></Pill>
                     <Pill><p>Redux</p></Pill>
                     <Pill><p>AWS Services</p></Pill>
                     <Pill><p>Jest</p></Pill>

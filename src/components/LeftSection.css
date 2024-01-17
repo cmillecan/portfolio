@@ -8,7 +8,7 @@
 }
 
 .nav-links {
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     width: 150px;
@@ -60,7 +60,7 @@
 .social {
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .social a {
@@ -79,7 +79,7 @@
 .technologies-container {
     display: flex;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 300px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .interests {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 940px) {
