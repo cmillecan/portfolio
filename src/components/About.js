@@ -23,15 +23,20 @@ const About = () => {
         <Section id="about">
             <div className="about-div">
                 <div className="about-header">
-                <h5>About</h5>
+                    <h5>About</h5>
                 </div>
                 <p>
-                    Hello! I'm a software engineer with experience in agile environments, primarily working with React and SaaS applications. I have a deep passion for frontend development, where I focus on crafting clean, efficient code and prioritizing user-friendly experiences.
+                    Hello! I'm a software engineer with experience in agile environments, primarily working with React and SaaS applications.
                 </p>
                 <p>
-                    But here's a fun twist - I'm also a musician! This part of my life has been a huge influence on how I approach software engineering. It's where I learned the magic of blending creativity with discipline and the importance of sweating the small stuff. These skills are key assets in my coding and design work, helping me create apps that are functional and intuitive.                </p>
+                    My fascination with frontend development began over 15 years ago when I was in high school, sparked by countless hours devoted to building and maintaining my personal website. This ignited my passion for creating captivating and user-friendly websites and applications.
+                </p>
                 <p>
-                    What really excites me about software engineering is its constant evolution – it's a field where learning never stops, and there's always a new challenge just around the corner. With every project I dive into, I get to combine technical skill with creativity, aiming to create impactful and user-centric solutions.
+                    Ultimately, I chose to pursue a career in music. After immersing myself in the music world, I found myself missing the creativity of building something on the web and the challenges of learning and mastering something new. This realization brought my journey full circle, leading me back to software development.
+                </p>
+                <p>
+                    What attracts me to software engineering, much like music, is the limitless potential for creativity, the meticulous attention to detail, the discipline needed to excel, and the constant evolution of technology that always offers new ways to grow and improve.
+
                 </p>
             </div>
         </Section>

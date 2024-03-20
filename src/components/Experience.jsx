@@ -12,16 +12,16 @@ const Experience = () => {
                 </div>
                     <div>
                         <p>
-                            Enhanced security by addressing annual pen test concerns through the relocation of session data from local storage to a secure cookie.
+                            - Played a critical role in redesigning the login flow and resolving two-factor authentication (2FA) bugs. This improvement led to a noticeable reduction in support tickets related to login issues, ensuring a smoother authentication process for users.
                         </p>
                         <p>
-                            Key contributor to login flow redesign, enhancing user experience, implementing robust testing strategies, and resolving critical 2FA bugs, resulting in improved user retention and reduced support tickets.
+                            - Collaborated on the implementation and integration of Single Sign-On (SSO), improving system security and simplifying the login process. Developed end-to-end tests for dependable user authentication.
                         </p>
                         <p>
-                            Collaborated in the implementation of Single Sign On (SSO), integrated the SSO login API, ensured seamless redirection to the Cognito Hosted UI, and wrote tests to demonstrate end-to-end functionality.
+                            - Resolved annual penetration test vulnerabilities by moving session data to secure cookies, greatly enhancing data security.
                         </p>
                         <p>
-                            Led frontend development for high-impact features within a paid customer tier, delivering a dynamic React dashboard widget and responsive components that empowered customers with more accurate business analytics, driving greater success.
+                            - Took charge of developing premium tier features, including a React dashboard widget, leading to better customer use of business analytics.
                         </p>
                     </div>
                 </div>

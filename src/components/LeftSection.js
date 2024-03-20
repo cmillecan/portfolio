@@ -65,7 +65,6 @@ const LeftSection = () => {
                     <Pill><p>MySQL</p></Pill>
                     <Pill><p>Redux</p></Pill>
                     <Pill><p>AWS Services</p></Pill>
-                    <Pill><p>Jest</p></Pill>
                 </div>
 
             </div>
