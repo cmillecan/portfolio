@@ -32,7 +32,7 @@ const About = () => {
                     My fascination with frontend development began over 15 years ago when I was in high school, sparked by countless hours devoted to building and maintaining my personal website. This ignited my passion for creating captivating and user-friendly websites and applications.
                 </p>
                 <p>
-                    Ultimately, I chose to pursue a career in music. After immersing myself in the music world, I found myself missing the creativity of building something on the web and the challenges of learning and mastering something new. This realization brought my journey full circle, leading me back to software development.
+                    Ultimately, I chose to pursue a career in music. After immersing myself in the music world, I found myself missing the creativity of building something on the web and the challenges of learning and mastering new skills. This realization brought my journey full circle, leading me back to software development.
                 </p>
                 <p>
                     What attracts me to software engineering, much like music, is the limitless potential for creativity, the meticulous attention to detail, the discipline needed to excel, and the constant evolution of technology that always offers new ways to grow and improve.
