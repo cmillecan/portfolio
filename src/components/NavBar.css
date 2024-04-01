@@ -1,0 +1,141 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-symbol {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.logo-font {
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  margin-right: 8px;
+  font-weight: bolder;
+}
+
+.logo-font a {
+  color: var(--font);
+  text-decoration: none;
+}
+
+.title-font {
+  font-family: "Manrope", sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  margin-top: 3px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--font);
+}
+
+.nav-links .icon {
+  margin-right: 8px;
+}
+
+.nav-links a {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: var(--font);
+  text-decoration: none;
+  letter-spacing: 0.3px;
+}
+
+.nav-link-about,
+.nav-link-resume,
+.nav-link-projects {
+  margin: 0 12px;
+  cursor: pointer;
+}
+
+.nav-link-about:hover,
+.nav-link-resume:hover,
+.nav-link-projects:hover {
+  opacity: 50%;
+}
+
+.fa-svg-icon {
+  margin-right: 8px;
+  color: var(--secondarylight);
+}
+
+@media (max-width: 790px) {
+  .nav {
+    padding: 10px 15px;
+  }
+  .logo-font {
+    font-size: 20px;
+  }
+  .logo-symbol {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Hide the "Software Engineer" title on mobile */
+  .title-font {
+    display: none;
+  }
+
+  /* Hide FontAwesome icons on mobile */
+  .nav-links .icon {
+    display: none;
+  }
+  .nav-links a {
+    font-size: 14px;
+  }
+  .nav-link-about,
+  .nav-link-resume,
+  .nav-link-projects {
+    margin: 0 5px;
+  }
+}
+
+@media (max-width: 400px) {
+  .nav {
+    padding: 10px 15px;
+  }
+  .logo-font {
+    font-size: 14px;
+  }
+  .logo-symbol {
+    width: 20px;
+    height: 20px;
+  }
+  /* Hide the "Software Engineer" title on mobile */
+  .title-font {
+    display: none;
+  }
+
+  /* Hide FontAwesome icons on mobile */
+  .nav-links .icon {
+    display: none;
+  }
+  .nav-links a {
+    font-size: 12px;
+  }
+  .nav-link-about,
+  .nav-link-resume,
+  .nav-link-projects {
+    margin: 0 5px;
+  }
+}

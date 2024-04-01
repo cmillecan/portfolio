@@ -1,0 +1,205 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  margin: 120px 0;
+}
+
+.home-left-column {
+  width: 370px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 30px;
+  margin-left: 40px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--card-bg);
+  width: 370px;
+  height: 450px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.horizontal-divider {
+  height: 2px;
+  background-color: var(--secondary);
+  width: 100px;
+  margin: 20px 0;
+}
+
+.software-engineer {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 30px;
+}
+
+.social-icons a {
+  color: var(--font);
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  opacity: 50%;
+}
+
+.home-right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+
+.hello {
+  color: var(--font);
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  font-weight: normal;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.cta-buttons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cta-buttons a {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 7px 20px;
+  margin-right: 15px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  text-decoration: none;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  text-align: center;
+  width: 100px;
+}
+
+.cta-primary {
+  background: var(--primary);
+  color: white;
+}
+
+.cta-primary:hover,
+.cta-secondary:hover {
+  opacity: 50%;
+}
+
+.cta-primary:hover {
+  color: white;
+}
+
+.cta-secondary:hover {
+  color: var(--primary);
+}
+
+.cta-secondary {
+  background: transparent;
+  color: var(--primary);
+}
+
+.cta-buttons a:last-child {
+  margin-right: 0;
+}
+
+.about-me {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.5px;
+  width: 400px;
+}
+
+.profile-pic {
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+@media (max-width: 900px) {
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .home-right-column {
+    width: 500px;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .home-left-column {
+    margin-bottom: 20px;
+    width: 300px;
+  }
+
+  .profile-card {
+    width: 300px;
+    height: 400px;
+  }
+
+  .home-right-column {
+    width: 300px;
+  }
+
+  .hello {
+    font-size: 30px;
+  }
+
+  .about-me {
+    font-size: 14px;
+    width: auto;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+  }
+}

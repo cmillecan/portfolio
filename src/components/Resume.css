@@ -1,0 +1,162 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 80px 60px;
+}
+
+.resume-list {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1000px;
+}
+
+.resume-left-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.entries-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resume-right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.dates-and-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.dates {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  width: 110px;
+  margin-top: 3px;
+}
+
+.title-and-description {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.title-header {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  width: 450px;
+}
+
+.description {
+  margin-bottom: 10px;
+  width: 450px;
+}
+
+.description ul {
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+
+.description p {
+  font-size: 14px;
+}
+
+.skills-section {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 570px;
+}
+
+@media (max-width: 1024px) {
+  .resume-section {
+    margin: 60px 30px;
+    max-width: 850px;
+  }
+
+  .resume-right-column {
+    margin-right: 130px;
+  }
+
+  .dates-and-title {
+    flex-direction: column;
+    margin: 5px 0;
+  }
+
+  .skills-section {
+    width: 90%;
+  }
+}
+
+@media (max-width: 900px) {
+  .resume-section {
+    margin: 60px 20px;
+  }
+
+  .resume-list {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .entries-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .resume-right-column {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  .page-title,
+  .resume-left-column,
+  .resume-right-column {
+    margin: 0 10px;
+  }
+
+  .dates-and-title {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .title-header {
+    width: 90%;
+  }
+
+  .dates {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    width: 100%;
+  }
+
+  .skills-section {
+    margin-top: 20px;
+    width: 100%;
+  }
+}
