@@ -1,17 +1,19 @@
 {
-  "main.css": "/portfolio/static/css/main.88814a01.chunk.css",
-  "main.js": "/portfolio/static/js/main.ddd6765c.chunk.js",
-  "main.js.map": "/portfolio/static/js/main.ddd6765c.chunk.js.map",
-  "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
-  "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-  "static/js/2.9edfa03f.chunk.js": "/portfolio/static/js/2.9edfa03f.chunk.js",
-  "static/js/2.9edfa03f.chunk.js.map": "/portfolio/static/js/2.9edfa03f.chunk.js.map",
-  "index.html": "/portfolio/index.html",
-  "precache-manifest.480b3adae04b06937d4041ca5406e752.js": "/portfolio/precache-manifest.480b3adae04b06937d4041ca5406e752.js",
-  "service-worker.js": "/portfolio/service-worker.js",
-  "static/css/main.88814a01.chunk.css.map": "/portfolio/static/css/main.88814a01.chunk.css.map",
-  "static/media/pic.png": "/portfolio/static/media/pic.328d0318.png",
-  "static/media/portfolio-disney.png": "/portfolio/static/media/portfolio-disney.46278fd9.png",
-  "static/media/portfolio-fitapp.png": "/portfolio/static/media/portfolio-fitapp.b111a3e1.png",
-  "static/media/portfolio-music.png": "/portfolio/static/media/portfolio-music.3191cac2.png"
+  "files": {
+    "main.css": "/portfolio/static/css/main.9322a019.css",
+    "main.js": "/portfolio/static/js/main.ae036f3e.js",
+    "static/media/libraryApp.png": "/portfolio/static/media/libraryApp.51ed00ebd8faa539e243.png",
+    "static/media/disneylandapp.png": "/portfolio/static/media/disneylandapp.bdfba33d2e9421b0c2ab.png",
+    "static/media/fitapp.jpg": "/portfolio/static/media/fitapp.a99bdad3822f2bfa83ec.jpg",
+    "static/media/music-game.png": "/portfolio/static/media/music-game.e1273a4e758adaabf5f7.png",
+    "static/media/medium.jpg": "/portfolio/static/media/medium.5e5ad0dc98cd0a02cf3d.jpg",
+    "static/media/cmkoreansymbol.png": "/portfolio/static/media/cmkoreansymbol.afe5d9ce1af52deb489b.png",
+    "index.html": "/portfolio/index.html",
+    "main.9322a019.css.map": "/portfolio/static/css/main.9322a019.css.map",
+    "main.ae036f3e.js.map": "/portfolio/static/js/main.ae036f3e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9322a019.css",
+    "static/js/main.ae036f3e.js"
+  ]
 }
