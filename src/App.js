@@ -16,6 +16,7 @@ function App() {
         <AnimatedRoute>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Home />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/projects" element={<PortfolioProjects />} />
