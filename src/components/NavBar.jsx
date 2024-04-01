@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Flower from "../images/cmkoreansymbol.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTerminal } from "@fortawesome/free-solid-svg-icons";
@@ -26,34 +26,34 @@ const NavBar = () => {
       </div>
       <div className="nav-links">
         <div className="nav-link-about">
-          <Link to="/about">
+          <NavLink to="/about" activeClassName="active">
             <FontAwesomeIcon
               icon={faAddressCard}
               className="icon"
               style={iconStyles.about}
             />
             About
-          </Link>
+          </NavLink>
         </div>
         <div className="nav-link-projects">
-          <Link to="/projects">
+          <NavLink to="/projects" activeClassName="active">
             <FontAwesomeIcon
               icon={faTerminal}
               className="icon"
               style={iconStyles.projects}
             />
             Projects
-          </Link>
+          </NavLink>
         </div>
         <div className="nav-link-resume">
-          <Link to="/resume">
+          <NavLink to="/resume" activeClassName="active">
             <FontAwesomeIcon
               icon={faFile}
               className="icon"
               style={iconStyles.resume}
             />
             Resume
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

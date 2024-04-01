@@ -61,6 +61,10 @@
   letter-spacing: 0.3px;
 }
 
+.nav-links a.active {
+  opacity: 40%;
+}
+
 .nav-link-about,
 .nav-link-resume,
 .nav-link-projects {
