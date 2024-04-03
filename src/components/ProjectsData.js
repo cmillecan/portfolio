@@ -19,7 +19,7 @@ const projects = [
     ],
   },
   {
-    title: "Musical Theory Game",
+    title: "Music Theory Game",
     description:
       "Built with React and utilizing Tone.js for audio synthesis, this Music Theory Game facilitates an immersive learning experience through a virtual piano for chord recognition and practice, incorporating real-time analytics for performance enhancement in music theory.",
     imageUrl: MusicApp,
