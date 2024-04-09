@@ -42,7 +42,7 @@ const Home = () => {
           <span className="hello">Hello, World!</span>
 
           <span className="about-me">
-            I'm a Software Engineer focused on front-end development, with
+            I'm a Software Engineer specializing in front-end development, with
             experience in creating React-based SaaS applications in agile
             environments.
           </span>

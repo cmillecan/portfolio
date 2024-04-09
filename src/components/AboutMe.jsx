@@ -61,7 +61,7 @@ const AboutMe = () => {
       </div>
       <div className="about-right-column">
         <p className="fancy-first-letter">
-          <span className="fancy-word">My </span> fascination with front-end
+          <span className="fancy-word">My </span> fascination with frontend
           development began over 15 years ago when I was in high school, sparked
           by countless hours devoted to building and maintaining my personal
           website. This ignited my passion for creating captivating and
@@ -70,7 +70,7 @@ const AboutMe = () => {
         <p>
           Ultimately, I chose to pursue a career in music, and after immersing
           myself in the music world, I found myself missing the creativity of
-          building something on the web and the challenges of learning and new
+          building something on the web and the challenges of learning new
           skills. This realization brought my journey full circle, leading me
           back to software development.
         </p>
