@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Music Theory Game",
     description:
-      "Built with React and utilizing Tone.js for audio synthesis, this Music Theory Game facilitates an immersive learning experience through a virtual piano for chord recognition and practice, incorporating real-time analytics for performance enhancement in music theory.",
+      "Built with React and utilizing Tone.js for audio synthesis, this Music Theory Game facilitates an immersive learning experience through a virtual piano for chord recognition and practice, and a real-time grading system.",
     imageUrl: MusicApp,
     technologies: ["React", "Tone.js"],
     demoUrl: ["https://cmillecan.github.io/music-app/"],
@@ -30,7 +30,7 @@ const projects = [
   {
     title: "Disneyland Database",
     description:
-      "Offers users information on Disney attractions and park resources. Its backend, focusing on data storage with MongoDB and server-side operations with Express.js, supports RESTful API endpoints for efficient data retrieval. React is used for the front-end, facilitating access to specific park information",
+      "Offers users information on Disney attractions and park resources. Its backend, focusing on data storage with MongoDB and server-side operations with Express.js, supports RESTful API endpoints for data retrieval. React is used for the front-end, facilitating access to specific park information.",
     imageUrl: DisneylandApp,
     technologies: ["MongoDB", "Express.js", "React"],
     githubUrl: ["http://github.com/cmillecan/disneyland-app"],
@@ -39,10 +39,8 @@ const projects = [
     title: "FitApp",
     description:
       "A web application developed for logging workouts and tracking fitness progress, " +
-      "built with React, Express, MySQL, and is deployed using AWS and Docker. As my final portfolio project " +
-      "at Holberton School, FitApp was created to replace traditional workout tracking tools like notebooks and " +
-      "spreadsheets with a simplified, digital solution. This project highlights my exploration of JavaScript " +
-      "and its ecosystems, aiming to provide users with an easy way to log workouts and customize their " +
+      "built with React, Express, MySQL, and is deployed using AWS and Docker. FitApp was created to replace traditional workout tracking tools like notebooks and " +
+      "spreadsheets with a simplified, digital solution. It aims to provide users with an easy way to log workouts and customize their " +
       "fitness routines.",
     imageUrl: FitApp,
     technologies: ["MySQL", "Express.js", "React"],
