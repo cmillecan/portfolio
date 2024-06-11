@@ -37,6 +37,7 @@ const resumeData = {
     "HTML",
     "CSS",
     "Node.js",
+    "Responsive Web Design",
     "Redux",
     "Jest",
     "React Testing Library",

@@ -16,6 +16,7 @@ const projects = [
       "Amazon Cognito",
       "Amazon S3",
       "GraphQL",
+      "Responsive Web Design",
     ],
   },
   {
