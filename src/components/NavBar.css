@@ -62,7 +62,7 @@
 }
 
 .nav-links a.active {
-  opacity: 40%;
+  font-weight: bold;
 }
 
 .nav-link-about,
