@@ -1,42 +1,44 @@
 .about-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0;
-  margin-top: 120px;
-  margin-bottom: 120px;
 }
 
-.about-left-column {
-  width: 370px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-right: 30px;
-  margin-left: 40px;
-}
-
-.about-horizontal-divider {
-  height: 2px;
-  background-color: var(--secondary);
-  width: 100px;
-  margin: 20px 0;
-}
-
-.about-profile-card {
+.about-section {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: var(--card-bg);
-  width: 370px;
-  height: 450px;
+  justify-content: center;
+  margin: 80px 60px;
+  width: 600px;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+
+.about-info {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.about-info p {
+  margin-bottom: 20px;
 }
 
 .hobbies {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 35px;
+  margin-bottom: 20px;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
-  width: 200px;
 }
 
 .hobbies-list {
@@ -44,7 +46,6 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 25px;
 }
 
 .hobby {
@@ -60,26 +61,17 @@
   margin: 4px;
 }
 
-.about-right-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 450px;
-}
-
 .fancy-word {
   font-size: 30px;
-  margin-right: 2px;
+  margin-right: 1px;
   font-family: "Pacifico", cursive;
   color: var(--primary); /* Example color */
 }
 
 @media (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
+  .about-section {
+    margin: 60px 30px;
+    max-width: 600px;
   }
 
   .about-right-column {
@@ -89,35 +81,21 @@
   }
 }
 
-@media (max-width: 500px) {
-  .about-container,
+@media (max-width: 647px) {
   .about-section {
-    flex-direction: column;
+    margin: 60px 20px;
+    width: 500px;
   }
+}
 
-  .about-left-column {
-    margin-bottom: 20px;
-    width: 300px;
+@media (max-width: 547px) {
+  .about-section {
+    width: 400px;
   }
+}
 
-  .about-profile-card {
-    width: 300px;
-    height: 400px;
-  }
-
-  .hobbies {
-    text-align: center;
-    margin-top: 35px;
-    font-family: "Noto Sans JP", sans-serif;
-    font-weight: bold;
-    width: 250px;
-  }
-
-  .about-right-column {
-  }
-
-  .profile-pic {
-    width: 150px;
-    height: 150px;
+@media (max-width: 447px) {
+  .about-section {
+    width: 320px;
   }
 }

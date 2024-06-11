@@ -1,5 +1,4 @@
 import React from "react";
-import MePic from "../images/medium.jpg";
 import "./AboutMe.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -19,10 +18,31 @@ const AboutMe = () => {
 
   return (
     <div className="about-container">
-      <div className="about-left-column">
-        <div className="about-profile-card">
-          <img className="profile-pic" src={MePic} alt="Connie in Barcelona" />
-          <span className="hobbies">My Interests and Hobbies:</span>
+      <div className="about-section">
+        <h1>About</h1>
+        <div className="about-info">
+          <p className="fancy-first-letter">
+            <span className="fancy-word">My </span> fascination with frontend
+            development began over 15 years ago when I was in high school,
+            sparked by countless hours devoted to building and maintaining my
+            personal website. This ignited my passion for creating captivating
+            and user-friendly web applications.
+          </p>
+          <p>
+            Ultimately, I chose to pursue a career in music, and after immersing
+            myself in the music world, I found myself missing the creativity of
+            building something on the web and the challenges of learning new
+            skills. This realization brought my journey full circle, leading me
+            back to software development.
+          </p>
+          <p>
+            What attracts me to software engineering, much like music, is the
+            limitless potential for creativity, the meticulous attention to
+            detail, the discipline needed to excel, and the constant evolution
+            of technology that always offers new ways to grow and improve.
+          </p>
+          <div className="hobbies">My Interests and Hobbies:</div>
+
           <div className="hobbies-list">
             <div className="hobby">
               <FontAwesomeIcon
@@ -58,28 +78,6 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="about-right-column">
-        <p className="fancy-first-letter">
-          <span className="fancy-word">My </span> fascination with frontend
-          development began over 15 years ago when I was in high school, sparked
-          by countless hours devoted to building and maintaining my personal
-          website. This ignited my passion for creating captivating and
-          user-friendly web applications.
-        </p>
-        <p>
-          Ultimately, I chose to pursue a career in music, and after immersing
-          myself in the music world, I found myself missing the creativity of
-          building something on the web and the challenges of learning new
-          skills. This realization brought my journey full circle, leading me
-          back to software development.
-        </p>
-        <p>
-          What attracts me to software engineering, much like music, is the
-          limitless potential for creativity, the meticulous attention to
-          detail, the discipline needed to excel, and the constant evolution of
-          technology that always offers new ways to grow and improve.
-        </p>
       </div>
     </div>
   );

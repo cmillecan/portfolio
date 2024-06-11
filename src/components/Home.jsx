@@ -11,11 +11,7 @@ const Home = () => {
       <div className="home-content">
         <div className="home-left-column">
           <div className="profile-card">
-            <img
-              className="profile-pic"
-              src={MePic}
-              alt="Connie in Barcelona"
-            />
+            <img className="profile-pic" src={MePic} alt="Connie" />
             <span className="name">Connie Millecan</span>
             <span className="software-engineer">software engineer</span>
             <div className="horizontal-divider" />
