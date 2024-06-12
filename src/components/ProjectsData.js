@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Library App",
     description:
-      "Enables users to upload and organize their books, comics, and stories from images and documents. Built using React and TypeScript on AWS Amplify with authentication through Amazon Cognito, it leverages GraphQL for data handling and S3 for storage.",
+      'I created this library app for my niece and nephews to upload and share their comics and stories. It features a "Main Library" page which displays books by all users, an "Upload" page for file and image uploads, and a "Your Books" section allowing users to see their uploaded books with a delete option. Built with React, TypeScript, and AWS Amplify - with authentication through Amazon Cognito, GraphQL for data handling, and S3 for storage.',
     imageUrl: LibraryApp,
     technologies: [
       "React",
