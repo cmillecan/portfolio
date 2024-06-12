@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3a47cea2.css",
-    "main.js": "/portfolio/static/js/main.ed66790c.js",
+    "main.js": "/portfolio/static/js/main.b932a169.js",
     "static/media/libraryApp.png": "/portfolio/static/media/libraryApp.fc23ed4d694cc9f0b647.png",
     "static/media/disneylandapp.png": "/portfolio/static/media/disneylandapp.bdfba33d2e9421b0c2ab.png",
     "static/media/fitapp.jpg": "/portfolio/static/media/fitapp.a99bdad3822f2bfa83ec.jpg",
@@ -10,10 +10,10 @@
     "static/media/cmkoreansymbol.png": "/portfolio/static/media/cmkoreansymbol.afe5d9ce1af52deb489b.png",
     "index.html": "/portfolio/index.html",
     "main.3a47cea2.css.map": "/portfolio/static/css/main.3a47cea2.css.map",
-    "main.ed66790c.js.map": "/portfolio/static/js/main.ed66790c.js.map"
+    "main.b932a169.js.map": "/portfolio/static/js/main.b932a169.js.map"
   },
   "entrypoints": [
     "static/css/main.3a47cea2.css",
-    "static/js/main.ed66790c.js"
+    "static/js/main.b932a169.js"
   ]
 }
