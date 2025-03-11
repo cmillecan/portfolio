@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Lefty Loopsy",
     description:
-      "Lefty Loopsey is a left-handed-friendly web app for learning how to crochet. The app includes an AI-integrated chat feature, using Arli AI’s LLM API, to answer specific crochet questions. It also features a video flipper that processes YouTube URLs to create embeddable links, mirroring the video using CSS for a left-handed perspective. Lefty Loopsey is built with React and AWS Amplify, and uses Amazon Cognito for admin authentication to manage tutorials. (Demo coming soon)",
+      "Lefty Loopsy is a left-handed-friendly web app for learning how to crochet. The app includes an AI-integrated chat feature, using Arli AI’s LLM API, to answer specific crochet questions. It also features a video flipper that processes YouTube URLs to create embeddable links, mirroring the video using CSS for a left-handed perspective. Lefty Loopsey is built with React and AWS Amplify, and uses Amazon Cognito for admin authentication to manage tutorials. (Demo coming soon)",
     imageUrl: LeftyLoopsey,
     technologies: [
       "React",
